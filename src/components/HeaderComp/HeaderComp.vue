@@ -12,6 +12,11 @@ export default {
 </script>
 
 <style scoped>
+.sections{
+  max-height: 8vw;
+  display: flex;
+  align-items: center;
+}
 div{
   display: block;
   width: 50%;
@@ -30,11 +35,5 @@ button{
   font-size: 1.5rem;
   background: none;
   border: none;
-}
-.sections{
-  height: 8vh;
-  display: flex;
-  align-items: center;
-  background-color: blue;
 }
 </style>

@@ -24,21 +24,17 @@ export default {
 }
 a{
   color: white;
-  font-weight: 200;
-  font-size: 1.2em;
-}
-.redesSociales a {
-  margin: 0vh 0.4vw;
 }
 button{
   background: none;
   border: none;
   color: aliceblue;
   margin: 0vh 0.4vw;
+  font-weight: 300;
+  font-size: 1.2em;
 }
 .navComp{
   background-color: black;
-  height: 4vh;
-  margin-right: 1vw;
+  height: 3vw;
 }
 </style>
