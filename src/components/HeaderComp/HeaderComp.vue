@@ -1,11 +1,7 @@
 <template>
   <section class="sections">
-    <div class="grafic">
-      <button type="button">Graphic design</button>
-    </div>
-    <div class="progr">
-      <button type="button" class="progr">Programming</button>
-    </div>
+    <div class="grafic"><button type="button">Graphic design</button></div>
+    <div class="progr"><button type="button">Programming</button></div>
   </section>
 </template>
 
@@ -16,30 +12,29 @@ export default {
 </script>
 
 <style scoped>
-.grafic{
-  background-image: url("../../assets/images/agv.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 div{
   display: block;
   width: 50%;
-  align-items: center;
   text-align: center;
+  margin: 1vh auto;
+}
+button:hover{
+  transition-duration: 500ms;
+  background-color: black;
+  color: azure;
 }
 button{
-  margin: 1vh 1vw;
-  height: 5vh;
-  width: 14vw;
+  padding: 1vw;
+  border-radius: 1vw;
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background: none;
   border: none;
 }
 .sections{
+  height: 8vh;
   display: flex;
+  align-items: center;
   background-color: blue;
 }
 </style>
