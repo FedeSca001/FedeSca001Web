@@ -20,11 +20,13 @@ export default {
 
 <style scoped>
 .redesSociales{
-  gap: 2px;
   display: inline-block;
 }
 a{
   color: white;
+}
+.redesSociales a {
+    margin: 0vh 0.4vw;
 }
 .navComp{
   background-color: black;

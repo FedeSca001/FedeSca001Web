@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavComp from './components/NavComp/NavComp.vue';
 import HeaderComp from './components/HeaderComp/HeaderComp.vue';
+import ToolsComponent from './components/ToolsComponent/ToolsComponent.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HeaderComp from './components/HeaderComp/HeaderComp.vue';
     <NavComp/>
     <HeaderComp/>
     <RouterView />
+    <ToolsComponent/>
   </div>
 </template>
 
