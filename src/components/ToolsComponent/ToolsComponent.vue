@@ -18,7 +18,6 @@
             <img src="../../assets/images/photoshop.png" alt="photoshop">
             <img src="../../assets/images/indesing.png" alt="indesing">
             <img src="../../assets/images/premiere.png" alt="premiere">
-            
           </li>
       </ul>
 
