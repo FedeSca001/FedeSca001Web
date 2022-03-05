@@ -4,3 +4,12 @@
     font-family: 'IBM Plex Mono', monospace;
     list-style: none;
 }
+.articleComp{
+    background-color: black;
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 0vw 10vw;
+    transition: 600ms;
+}

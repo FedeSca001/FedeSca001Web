@@ -13,7 +13,7 @@
             <img src="../../assets/images/vuejs.png" alt="vue">
           </li>
           <li>
-            <h4>Grafic Design</h4>
+            <h4>Graphic Design</h4>
             <img src="../../assets/images/ilustratos.png" alt="ilustratos">
             <img src="../../assets/images/photoshop.png" alt="photoshop">
             <img src="../../assets/images/indesing.png" alt="indesing">

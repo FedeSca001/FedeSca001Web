@@ -1,5 +1,7 @@
 <template>
-  <p>infopersonal</p>
+  <article class="articleComp">
+    <p>infopersonal</p>
+  </article>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-  <p>Contact</p>
+  <article class="articleComp">
+    <p>Contact</p>
+  </article>
 </template>
 
 <script>

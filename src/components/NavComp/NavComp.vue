@@ -31,7 +31,7 @@ button{
   color: aliceblue;
   margin: 0vh 0.4vw;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 2vw;
 }
 .navComp{
   background-color: black;

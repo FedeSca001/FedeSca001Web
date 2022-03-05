@@ -1,5 +1,7 @@
 <template>
-  <p>Studies</p>
+  <article class="articleComp">
+    <p>Studies</p>
+  </article>
 </template>
 
 <script>

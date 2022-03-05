@@ -20,14 +20,6 @@ export default {
 </script>
 
 <style scoped>
-.articleComp{
-  background-color: black;
-  height: 30vw;
-  display: flex;
-  align-items: center;
-  gap: 2vw;
-  padding: 0vw 10vw;
-}
 .imgProfile{
   border-radius: 100%;
   height: 20vw;
