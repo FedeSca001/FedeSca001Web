@@ -10,7 +10,6 @@ import ToolsComponent from './components/ToolsComponent/ToolsComponent.vue';
     <NavComp/>
     <HeaderComp/>
     <RouterView />
-    <ToolsComponent/>
   </div>
 </template>
 

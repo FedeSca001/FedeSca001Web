@@ -1,9 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainComp from '../components/MainComp/MainComp.vue'
-import InfoPersonal from '../components/InfoPersonal/InfoPersonal.vue'
-import Studies from '../components/Studies/Studies.vue'
-import Contact from '../components/Contact/Contact.vue'
-import ToolsComponent from '../components/ToolsComponent/ToolsComponent.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -15,22 +12,22 @@ const router = createRouter({
     {
       path: '/infopersonal',
       name: 'InfoPersonal',
-      component: InfoPersonal
+      component: ()=> import ('../components/InfoPersonal/InfoPersonal.vue')
     },
     {
       path: '/studies',
       name: 'Studies',
-      component: Studies
+      component: ()=> import ('../components/Studies/Studies.vue')
     },
     {
       path: '/contact',
       name: 'Contact',
-      component: Contact
+      component: ()=> import ('../components/Contact/Contact.vue')
     },
     {
       path: '/tools',
       name: 'ToolsComponent',
-      component: ToolsComponent
+      component: ()=> import ('../components/ToolsComponent/ToolsComponent.vue')
     }
   ]
 })

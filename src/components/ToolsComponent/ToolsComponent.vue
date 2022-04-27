@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="articleComp">
       <h3>Tools</h3>
       <ul>
           <li>
