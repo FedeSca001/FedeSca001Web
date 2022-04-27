@@ -1,7 +1,7 @@
 <template>
   <section class="sections">
-    <div class="grafic"><router-link to="/"><button type="button grafic">Graphic design</button></router-link></div>
-    <div class="progr"><router-link to="/"><button type="button progr">Programming</button></router-link></div>
+    <div><router-link to="/"><v-btn flat variant="outlined">Graphic design</v-btn></router-link></div>
+    <div><router-link to="/"><v-btn flat variant="outlined">Programming</v-btn></router-link></div>
   </section>
 </template>
 
@@ -22,18 +22,5 @@ div{
   width: 50%;
   text-align: center;
   margin: 1vh auto;
-}
-button:hover{
-  transition-duration: 500ms;
-  background-color: black;
-  color: azure;
-}
-button{
-  padding: 1vw;
-  border-radius: 1vw;
-  font-weight: 800;
-  font-size: 1.5rem;
-  background: none;
-  border: none;
 }
 </style>
