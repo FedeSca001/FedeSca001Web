@@ -1,7 +1,7 @@
 <template>
   <section class="sections">
-    <div class="grafic"><router-link to="/"><button type="button">Graphic design</button></router-link></div>
-    <div class="progr"><router-link to="/"><button type="button">Programming</button></router-link></div>
+    <div class="grafic"><router-link to="/"><button type="button grafic">Graphic design</button></router-link></div>
+    <div class="progr"><router-link to="/"><button type="button progr">Programming</button></router-link></div>
   </section>
 </template>
 
