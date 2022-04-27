@@ -1,14 +1,6 @@
 <template>
   <div class="articleComp">
-      <h3>Tools</h3>
-      <ul>
-          <li class="listTools">
-            <h4>Graphic Design</h4>
-            <img src="../../assets/images/ilustratos.png" alt="ilustratos">
-            <img src="../../assets/images/photoshop.png" alt="photoshop">
-            <img src="../../assets/images/indesing.png" alt="indesing">
-            <img src="../../assets/images/premiere.png" alt="premiere">
-          </li>
+      <ul class="list">
           <li class="listTools">
             <h4>Programming</h4>
             <img src="../../assets/images/html.png" alt="html">
@@ -18,6 +10,13 @@
             <img src="../../assets/images/jquery.png" alt="jquery">
             <img src="../../assets/images/git.png" alt="git">
             <img src="../../assets/images/vuejs.png" alt="vue">
+          </li>
+          <li class="listTools">
+            <h4>Graphic Design</h4>
+            <img src="../../assets/images/ilustratos.png" alt="ilustratos">
+            <img src="../../assets/images/photoshop.png" alt="photoshop">
+            <img src="../../assets/images/indesing.png" alt="indesing">
+            <img src="../../assets/images/premiere.png" alt="premiere">
           </li>
       </ul>
 
@@ -44,5 +43,8 @@ img{
 h4{
   font-size: 2vw;
   margin-bottom: 0.5vw;
+}
+.list{
+  margin: 0 auto;
 }
 </style>

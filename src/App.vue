@@ -9,7 +9,6 @@ import MainComp from './components/MainComp/MainComp.vue';
 <template>
   <div>
     <NavComp/>
-    <MainComp/>
     <HeaderComp/>
     <RouterView />
   </div>

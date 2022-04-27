@@ -5,6 +5,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      name: 'MainComp',
+      component: MainComp
+    },
+    {
       path: '/infopersonal',
       name: 'InfoPersonal',
       component: ()=> import ('../components/InfoPersonal/InfoPersonal.vue')

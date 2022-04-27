@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 .home{
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   font-weight: 600;
 }
 button{
