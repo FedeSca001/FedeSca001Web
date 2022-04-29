@@ -22,6 +22,9 @@ a{
     background-color: black;
     color: white;
     padding: 0.3vw 0.8vw;
-    margin: 0 1vw;
+    padding-bottom: 0vw;
+    border-top-left-radius: 0.3vw; 
+    border-top-right-radius: 0.3vw; 
+    margin: 0 0.4vw;
 }
 </style>
