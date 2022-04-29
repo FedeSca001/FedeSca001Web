@@ -4,6 +4,7 @@ import NavComp from './components/NavComp/NavComp.vue';
 import HeaderComp from './components/HeaderComp/HeaderComp.vue';
 import ToolsComponent from './components/ToolsComponent/ToolsComponent.vue';
 import MainComp from './components/MainComp/MainComp.vue';
+import FooterComp from './components/FooterComp/FooterComp.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import MainComp from './components/MainComp/MainComp.vue';
     <NavComp/>
     <HeaderComp/>
     <RouterView />
+    <FooterComp/>
   </div>
 </template>
 

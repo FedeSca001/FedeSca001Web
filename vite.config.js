@@ -6,9 +6,13 @@ const path = require('path')
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    origin: 'http://127.0.0.1:8080/',
+    host: true,
+    port: '8080',
+  },
   plugins: [
     vue(),
-    // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
     vuetify({
       autoImport: true,
     }),
@@ -18,18 +22,5 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
-  },
-  /* remove the need to specify .vue files https://vitejs.dev/config/#resolve-extensions
-  resolve: {
-    extensions: [
-      '.js',
-      '.json',
-      '.jsx',
-      '.mjs',
-      '.ts',
-      '.tsx',
-      '.vue',
-    ]
-  },
-  */
+  }
 })
