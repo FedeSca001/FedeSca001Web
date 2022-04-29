@@ -19,6 +19,7 @@ export default {
 }
 a{
     font-style: none;
+    font-size: 1.1vw;
     background-color: black;
     color: white;
     padding: 0.3vw 0.8vw;

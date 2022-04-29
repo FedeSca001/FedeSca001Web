@@ -22,7 +22,7 @@ button{
   background: none;
   border: none;
   color: aliceblue;
-  margin: 0vh 0.4vw;
+  margin: 0.1vw 0.4vw;
   font-weight: 300;
   font-size: 1vw;
 }
