@@ -1,31 +1,26 @@
 <template>
   <article class="articleComp">
     <v-card v-for="item in items" :key="item.id"
-    class="mx-auto"
+    class="mx-auto card"
     width="28%">
-    <v-img
-      :src="item.img"
-      height="250px"></v-img>
-    <v-card-title>
+    <div class="titleCard">
+    <v-card-title class="title">
       {{item.title}}
     </v-card-title>
-
-    <v-card-subtitle>
-      {{item.subTitle}}
+    <v-card-subtitle class="subtitle">
+        {{item.subTitle}}
     </v-card-subtitle>
+        </div>
     <v-card-actions>
-        <a :href="item.link" target="blank">Link to deploy</a>
-      <v-spacer></v-spacer>
+        <a :href="item.link" target="_blank">
+            <img class="icon" src="../../assets/images/githubicon.png" alt="github"></a>
+        <a :href="item.deploy" target="_blank">Link to deploy</a>
+    <v-spacer></v-spacer>
     </v-card-actions>
-
-    <v-expand-transition>
-      <div v-show="show">
-        <v-divider></v-divider>
-        <v-card-text>
-          {{item.description}}
+    <v-divider></v-divider>
+        <v-card-text class="about">
+            {{item.description}}
         </v-card-text>
-      </div>
-    </v-expand-transition>
   </v-card>
   </article>
 </template>
@@ -44,7 +39,29 @@ export default {
 </script>
 
 <style scoped>
+
+.titleCard{
+    height: 6vw;
+}
+.title{
+    font-size: 1.5vw;
+}
+.subtitle{
+    font-size: 1vw;
+}
+.about{
+    font-size: 0.8vw;
+}
+.card{
+    height: 14vw;
+}
+.icon{
+    height: 1.5vw;
+}
 a{
+    justify-content: end;
+    margin: 0 0.3vw;
     font-style: none;
+    padding-bottom: 0;
 }
 </style>

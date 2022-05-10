@@ -1,23 +1,30 @@
 [
     {
-        "title": "Calculator JS",
-        "subTitle": "First proyect vanilla",
+        "title": "Foods-App",
+        "subTitle": "E-commerce Vue 3",
         "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "link": "",
-        "img": ""
+        "link": "https://github.com/FedeSca001/foods-app",
+        "deploy": "https://foods-app-vue3.web.app/"
     },
     {
-        "title": "Calculator JS",
-        "subTitle": "First proyect vanilla",
+        "title": " Calculator-Functions",
+        "subTitle": "Vuex Practice",
+        "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "link": "https://github.com/FedeSca001/Calculator-Functions",
+        "deploy": "https://function-aplication.netlify.app"
+    },
+    {
+        "title": "Kiosco Fantasia Js",
+        "subTitle": "E-commerce vanilla Js",
         "description": "dddddddddddddddddddd",
-        "link": "",
-        "img": ""
+        "link": "https://github.com/FedeSca001/Proyecto-final-Coder",
+        "deploy": "https://kiosco-fantacia.netlify.app"
     },
     {
         "title": "Calculator JS",
         "subTitle": "First proyect vanilla",
         "description": "gggggggggggggggggggg",
-        "link": "",
-        "img": ""
+        "link": "https://github.com/FedeSca001/Calculadora",
+        "deploy": "https://calculator-proyect.netlify.app"
     }
 ]
