@@ -1,7 +1,6 @@
 <template>
   <section class="sections">
-    <div><router-link to="/"><v-btn flat color="black" variant="outlined" class="btn">Programming</v-btn></router-link></div>
-    <div><router-link to="/"><v-btn flat color="black" variant="outlined" class="btn">Graphic design</v-btn></router-link></div>
+    <div><router-link to="/portfolio"><v-btn flat color="black" variant="outlined" class="btn">PortFolio</v-btn></router-link></div>
   </section>
 </template>
 

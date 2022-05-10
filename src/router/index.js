@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/tools',
       name: 'ToolsComponent',
       component: ()=> import ('../components/ToolsComponent/ToolsComponent.vue')
+    },
+    {
+      path: '/portfolio',
+      name: 'portFolio-comp',
+      component: ()=> import('../components/PortFolio/PortFolio.vue')
     }
   ]
 })
