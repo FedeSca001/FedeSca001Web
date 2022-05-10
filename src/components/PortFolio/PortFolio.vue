@@ -3,25 +3,24 @@
     <v-card v-for="item in items" :key="item.id"
     class="mx-auto card"
     width="28%">
-    <div class="titleCard">
-    <v-card-title class="title">
-      {{item.title}}
-    </v-card-title>
-    <v-card-subtitle class="subtitle">
-        {{item.subTitle}}
-    </v-card-subtitle>
+        <div class="titleCard">
+            <v-card-title class="title">
+            {{item.title}}
+            </v-card-title>
+            <v-card-subtitle class="subtitle">
+                {{item.subTitle}}
+            </v-card-subtitle>
         </div>
-    <v-card-actions>
-        <a :href="item.link" target="_blank">
-            <img class="icon" src="../../assets/images/githubicon.png" alt="github"></a>
-        <a :href="item.deploy" target="_blank">Link to deploy</a>
-    <v-spacer></v-spacer>
-    </v-card-actions>
-    <v-divider></v-divider>
+        <v-card-actions>
+            <a :href="item.link" target="_blank">
+                <img class="icon" src="../../assets/images/githubicon.png" alt="github"></a>
+            <a :href="item.deploy" target="_blank">Link to deploy</a>
+        </v-card-actions>
+        <v-divider></v-divider>
         <v-card-text class="about">
             {{item.description}}
         </v-card-text>
-  </v-card>
+    </v-card>
   </article>
 </template>
 
@@ -59,7 +58,6 @@ export default {
     height: 1.5vw;
 }
 a{
-    justify-content: end;
     margin: 0 0.3vw;
     font-style: none;
     padding-bottom: 0;
