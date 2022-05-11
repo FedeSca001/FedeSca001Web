@@ -2,7 +2,6 @@
   <section class="navComp">
     <router-link to="/"><button class="home">Home</button></router-link>
     <router-link to="/infopersonal"><button>Personal.information/</button></router-link>
-    <router-link to="/contact"><button>Contact/</button></router-link>
     <router-link to="/tools"><button>Tools/</button></router-link>
   </section>
 </template>
