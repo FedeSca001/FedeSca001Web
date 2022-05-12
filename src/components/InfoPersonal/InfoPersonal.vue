@@ -1,10 +1,27 @@
 <template>
-  <article class="articleComp">
-    <div>
-      <h1 class="textInit">Contact me</h1>
-      <h2 class="subText">Contact me</h2>
-      <div>
-        <p>E-mail: familadore@gmail.com</p>
+  <article class="article">
+    <div class="sectionArticle">
+        <h1 class="textInit">Personal information =</h1>
+        <div class="divSection">
+          {
+            <p>name: 'Federico Scarpecci',</p>
+            <p>age: 30,</p>
+            <p>nationality: Argentina,</p>
+            <p>language: 'Spanish',</p>
+            <p>studies: ['HTML','Css','Javascript','Vue Js','Vuex']</p>
+          }
+        </div>
+      </div>
+    <div class="sectionArticle">
+      <h1 class="textInit">Contact me =</h1>
+      <div class="divSection">
+        {
+          <p>e-mail: 'familadore@gmail.com',</p>
+          <p>phone: '+54 9 3404 435743',</p>
+          <p>instagram: 'instagram.com/fedesca001/',</p>
+          <p>linkedin: 'linkedin.com/in/federico-scarpecci-developer/',</p>
+          <p>address: 'Laprida 319, Gálvez, Santa Fe, Argentina'</p>
+        }
       </div>
     </div>
   </article>
@@ -17,13 +34,31 @@ export default {
 </script>
 
 <style scoped>
-p{
+.divSection{
+  font-size: 1vw;
   color: white;
+  transition: 500ms;
 }
+div p {
+  margin-left: 3vw;
+}
+.sectionArticle{
+  display: flex;
+  gap: 0.6vw;
+}
+.article{
+    background-color: black;
+    color: white;
+    height: 35vw;
+    gap: 2vw;
+    padding: 3vw 10vw;
+    transition: 600ms;
+}
+
 .textInit{
   color: white;
   font-weight: 800;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 .subText{
   color: white;

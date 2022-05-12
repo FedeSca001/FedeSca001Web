@@ -9,7 +9,7 @@
             <img src="../../assets/images/bootstrap.png" alt="bootstrap">
             <img src="../../assets/images/jquery.png" alt="jquery">
             <img src="../../assets/images/git.png" alt="git">
-            <img src="../../assets/images/vuejs.png" alt="vue">
+            <img src="../../assets/images/vuejs.jpeg" alt="vue">
           </li>
           <li class="listTools">
             <h4>Graphic Design</h4>
