@@ -6,7 +6,7 @@
           {
             <p>name: 'Federico Scarpecci',</p>
             <p>age: 30,</p>
-            <p>nationality: Argentina,</p>
+            <p>nationality: Argentinan,</p>
             <p>language: 'Spanish',</p>
             <p>studies: ['HTML','Css','Javascript','Vue Js','Vuex']</p>
           }

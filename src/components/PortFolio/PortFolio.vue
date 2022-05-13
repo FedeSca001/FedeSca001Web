@@ -5,7 +5,7 @@
     width="28%">
         <div class="titleCard">
             <v-card-title class="title">
-            {{item.title}}
+                {{item.title}}
             </v-card-title>
             <v-card-subtitle class="subtitle">
                 {{item.subTitle}}
@@ -52,7 +52,7 @@ export default {
     font-size: 0.8vw;
 }
 .card{
-    height: 14vw;
+    height: 20vw;
 }
 .icon{
     height: 1.5vw;
