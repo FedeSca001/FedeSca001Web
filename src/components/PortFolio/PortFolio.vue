@@ -11,9 +11,11 @@
                 {{item.subTitle}}
             </v-card-subtitle>
         </div>
-        <v-card-actions>
+        <v-card-actions class="links">
+            <img class="icon" src="../../assets/images/githubicon.png" alt="github">
             <a :href="item.link" target="_blank">
-                <img class="icon" src="../../assets/images/githubicon.png" alt="github"></a>
+                Github
+                </a>
             <a :href="item.deploy" target="_blank">Link to deploy</a>
         </v-card-actions>
         <v-divider></v-divider>
@@ -38,7 +40,9 @@ export default {
 </script>
 
 <style scoped>
-
+.links{
+    margin-top: 0.6vw;
+}
 .titleCard{
     height: 6vw;
 }

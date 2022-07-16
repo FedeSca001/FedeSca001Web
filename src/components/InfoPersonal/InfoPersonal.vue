@@ -7,6 +7,7 @@
             <p>name: 'Federico Scarpecci',</p>
             <p>age: 30,</p>
             <p>nationality: Argentinan,</p>
+            <p>now-living: Argentinan,</p>
             <p>language: 'Spanish',</p>
             <p>studies: ['HTML','Css','Javascript','Vue Js','Vuex']</p>
           }
@@ -17,10 +18,10 @@
       <div class="divSection">
         {
           <p>e-mail: 'familadore@gmail.com',</p>
-          <p>phone: '+54 9 3404 435743',</p>
+          <p>phone: '+393511911615',</p>
+          <p>address: 'Vía Rubino Nicodemi 42 - Fisciano - Salerno - Italia.'</p>
           <p>instagram: 'instagram.com/fedesca001/',</p>
           <p>linkedin: 'linkedin.com/in/federico-scarpecci-developer/',</p>
-          <p>address: 'Laprida 319, Gálvez, Santa Fe, Argentina'</p>
         }
       </div>
     </div>
