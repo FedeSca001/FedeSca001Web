@@ -23,11 +23,6 @@ const router = createRouter({
       path: '/portfolio',
       name: 'portFolio-comp',
       component: ()=> import('../components/PortFolio/PortFolio.vue')
-    },
-    {
-      path: '/gallery',
-      name: 'imageGalleryComp',
-      component: ()=> import('../components/Gallery/ImageGallery.vue')
     }
   ]
 })

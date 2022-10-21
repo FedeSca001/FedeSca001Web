@@ -36,12 +36,13 @@ export default {
 
 <style scoped>
 .divSection{
-  font-size: 1vw;
-  color: white;
+  font-size: 1.2vw;
+  color: red;
   transition: 500ms;
 }
 div p {
   margin-left: 3vw;
+  color: yellow;
 }
 .sectionArticle{
   display: flex;
@@ -59,7 +60,7 @@ div p {
 .textInit{
   color: white;
   font-weight: 800;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .subText{
   color: white;

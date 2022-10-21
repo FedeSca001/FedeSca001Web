@@ -2,7 +2,7 @@
     {
         "title": "Food-App",
         "subTitle": "E-commerce Vue 3",
-        "description": "Último proyecto del curso de Vue js en Coderhouse. Utiliza Vue 3 con vite, pinia, vuetify y axios. Hace una llamada API, luego renderiza los restorants y al confirmar el pedido utiliza los datos ingresados por el cliente para hacer el despacho.",
+        "description": "Éste proyecto utiliza Vue 3 con vite, pinia, vuetify y axios, y también hace una llamada API.",
         "link": "https://github.com/FedeSca001/foods-app",
         "deploy": "https://foods-app-vue3.web.app/"
     },
@@ -19,12 +19,5 @@
         "description": "Es un proyecto de un kiosco ficticio donde un cliente ingresa sus datos y encarga mercadería del kiosco. Utiliza jquery y ajax.",
         "link": "https://github.com/FedeSca001/Proyecto-final-Coder",
         "deploy": "https://kiosco-fantacia.netlify.app"
-    },
-    {
-        "title": "Calculator JS",
-        "subTitle": "First project vanilla",
-        "description": "Fue mi primer proyecto de html, css y javascripy. Se pueden ver errores muy evidentes en el código (normales de alguien que recién comienza), pero gracias a éste proyecto aprendí conceptos como eventos, funciones, scope, etc..",
-        "link": "https://github.com/FedeSca001/Calculadora",
-        "deploy": "https://calculator-proyect.netlify.app"
     }
 ]

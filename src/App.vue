@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavComp from './components/NavComp/NavComp.vue';
 import HeaderComp from './components/HeaderComp/HeaderComp.vue';
+import FooterComp from "./components/FooterComp/FooterComp.vue"
 
 </script>
 
@@ -10,7 +11,7 @@ import HeaderComp from './components/HeaderComp/HeaderComp.vue';
     <NavComp/>
     <HeaderComp/>
     <RouterView />
-
+    <FooterComp/>
   </div>
 </template>
 

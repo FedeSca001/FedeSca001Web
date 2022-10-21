@@ -13,12 +13,9 @@
         </div>
         <v-card-actions class="links">
             <img class="icon" src="../../assets/images/githubicon.png" alt="github">
-            <a :href="item.link" target="_blank">
-                Github
-                </a>
-            <a :href="item.deploy" target="_blank">Link to deploy</a>
+            <a :href="item.link" target="_blank" class="link">Github</a>
+            <a :href="item.deploy" target="_blank" class="link">Link to app</a>
         </v-card-actions>
-        <v-divider></v-divider>
         <v-card-text class="about">
             {{item.description}}
         </v-card-text>
@@ -51,6 +48,9 @@ export default {
 }
 .subtitle{
     font-size: 1vw;
+}
+.link{
+    font-size: 1.2vw;
 }
 .about{
     font-size: 0.8vw;

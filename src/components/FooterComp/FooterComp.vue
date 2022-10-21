@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .footContain{
-    position: absolute;
+
     bottom: 0;
 }
 a{
@@ -27,5 +27,10 @@ a{
     border-top-left-radius: 0.3vw; 
     border-top-right-radius: 0.3vw; 
     margin: 0 0.4vw;
+}
+a:hover{
+    transition: 200ms;
+    background-color: whitesmoke;
+    color: black;
 }
 </style>
