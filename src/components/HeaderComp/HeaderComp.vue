@@ -2,7 +2,7 @@
   <section class="sections">
     <div>
       <router-link to="/portfolio">
-        <v-btn flat color="black" variant="outlined" class="btn">PortFolio</v-btn>
+        <button flat color="black" variant="outlined" class="btn">PortFolio</button>
       </router-link>
     </div>
   </section>
@@ -26,15 +26,18 @@ div{
   margin: 1vw auto;
 }
 .btn{
-  border-radius: 0.3vw;
-  border: none;
-  padding: 1.6vw;
-  font-size: 1.2vw;
+  border-radius: 0.8vw;
+  border: solid 1.5px rgb(0, 255, 0);
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  font-weight: bold;
+  color: black;
+
 }
 .btn:hover{
-  transition: 200ms;
-  background-color: rgb(9, 255, 0);
-  border-color: blanchedalmond;
-  font-weight: 500;
+  transition: 600ms;
+  background-color: rgb(0, 255, 0);
+  border-color: white;
+
 }
 </style>
