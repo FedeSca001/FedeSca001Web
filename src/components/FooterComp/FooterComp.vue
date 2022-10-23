@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .footContain{
-    position: relative;
+    position: fixed;
     bottom: 0;
 }
 a{
