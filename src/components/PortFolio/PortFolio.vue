@@ -41,6 +41,8 @@ export default {
 }
 .titleCard{
     height: 6vw;
+    font-weight: 900;
+    color: black;
 }
 .title{
     font-size: 1.5vw;
@@ -52,10 +54,11 @@ export default {
     font-size: 1.2vw;
 }
 .about{
-    font-size: 0.8vw;
+    font-size: 1.2vw;
+    font-weight: 600;
 }
 .card{
-    height: 20vw;
+    height: 23vw;
 }
 .icon{
     height: 1.5vw;

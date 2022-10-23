@@ -12,7 +12,7 @@ let selectFormat = hour > 11 ? format = 'PM' : format = 'AM'
 
 <style scoped>
 .containHoras{
-    font-size: 16pt;
+    font-size: 1.4vw;
     font-weight: 500;
     color: rgb(255, 255, 255);
     display: inline-block;

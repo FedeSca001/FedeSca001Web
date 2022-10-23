@@ -14,9 +14,10 @@ import HourComp from "../HourComp/HourComp.vue";
 
 <style scoped>
 .home{
-  font-size: 19pt;
+  font-size: 1.8vw;
   font-weight: 600;
   color: red;
+  margin: 0 2vw;
 }
 .infPers{
   color: yellow;
@@ -29,7 +30,7 @@ button{
   border: none;
   margin: 0.1vw 0.4vw;
   font-weight: 300;
-  font-size: 13pt;
+  font-size: 1.4vw;
 }
 .navComp{
   height: 40px;

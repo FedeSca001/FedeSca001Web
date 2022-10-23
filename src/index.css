@@ -4,6 +4,9 @@
     font-family: 'IBM Plex Mono', monospace;
     list-style: none;
 }
+body{
+    height: 100vh;
+}
 .articleComp{
     height: 33vw;
     display: flex;

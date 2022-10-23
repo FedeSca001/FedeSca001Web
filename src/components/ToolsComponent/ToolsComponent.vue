@@ -37,7 +37,7 @@ export default {
   border-radius: 1vw;
 }
 img{
-  max-height: 70px;
+  width: 4vw;
   margin: 0.4vw;
 }
 h4{
@@ -45,6 +45,8 @@ h4{
   margin-bottom: 0.5vw;
 }
 .list{
+  height: 30vw;
+  width: 80vw;
   margin: 0 auto;
 }
 </style>

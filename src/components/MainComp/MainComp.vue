@@ -39,12 +39,12 @@ export default {
 h4{
   color: white;
   padding-top: 3vw;
-  font-size: 24pt;
+  font-size: 2vw;
   font-weight: bold;
   text-align: center;
 }
 .textPresentacion{
-  font-size: 14pt;
+  font-size: 1.5vw;
   padding: 1vw 15vw 3vw 15vw;
   color: white;
 }

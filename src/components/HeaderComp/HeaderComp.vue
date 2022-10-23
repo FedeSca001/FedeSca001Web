@@ -19,6 +19,10 @@ export default {
   display: flex;
   align-items: center;
 }
+.sections:hover{
+  transition: 1.2s;
+  background-color: rgba(255, 255, 255, 0.137);
+}
 div{
   display: block;
   width: 50%;
@@ -27,18 +31,18 @@ div{
 }
 .btn{
   border-radius: 0.8vw;
-  border: solid 0.5px rgb(0, 255, 0);
+  border: solid 0.5px;
   padding: 1vw 2vw;
   font-size: 2vw;
   font-weight: bold;
   color: white;
-  border-color: #0063a5;
+  border-color: #013658;
   box-shadow: 0 0 40px 40px #0063a5 inset, 0 0 0 0 #0063a5;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 350ms ease-in-out;
 }
 .btn:hover{
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(0, 167, 0);
   border-color: white;
   box-shadow: 0 0 10px 0 rgb(0,255,0) inset, 0 0 10px 4px rgb(0,255,0);
 }

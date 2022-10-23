@@ -36,12 +36,13 @@ export default {
 
 <style scoped>
 .divSection{
-  font-size: 1.2vw;
-  color: red;
+  font-size: 1.6vw;
+  color: rgb(255, 0, 0);
   transition: 500ms;
 }
 div p {
   margin-left: 3vw;
+  font-size: 1.4vw;
   color: yellow;
 }
 .sectionArticle{
@@ -60,7 +61,7 @@ div p {
 .textInit{
   color: white;
   font-weight: 800;
-  font-size: 1.2vw;
+  font-size: 1.6vw;
 }
 .subText{
   color: white;
