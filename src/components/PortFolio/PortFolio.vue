@@ -29,7 +29,6 @@ export default {
     name: 'portFolio-comp',
     data(){
         return {
-            show: true,
             items: list
         }
     }

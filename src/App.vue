@@ -6,7 +6,7 @@ import FooterComp from "./components/FooterComp/FooterComp.vue"
 </script>
 
 <template>
-  <div>
+  <div class="appStyle">
     <NavComp/>
     <HeaderComp/>
     <RouterView />
@@ -15,5 +15,8 @@ import FooterComp from "./components/FooterComp/FooterComp.vue"
 </template>
 
 <style>
-
+.appStyle{
+  background-image: linear-gradient(135deg,rgb(2, 14, 68),rgb(0, 0, 134), rgb(86, 10, 131));
+  background-size: 100%;
+}
 </style>

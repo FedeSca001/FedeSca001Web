@@ -3,16 +3,13 @@
     <router-link to="/"><button class="home">Home</button></router-link>
     <router-link class="infPers" to="/infopersonal"><button>Personal.information/</button></router-link>
     <router-link class="tools" to="/tools"><button>Tools/</button></router-link>
-    <hour-comp class="hourNav"/>
+    <hour-comp />
   </section>
 </template>
 
-<script>
-import HourComp from '../HourComp/HourComp.vue'
-export default {
-  components: { HourComp },
-  name: 'NavComp'
-}
+<script setup>
+import HourComp from "../HourComp/HourComp.vue";
+
 </script>
 
 <style scoped>
@@ -35,11 +32,14 @@ button{
   font-size: 13pt;
 }
 .navComp{
-  background-color: black;
   height: 40px;
   width: 100%;
 }
 .hourNav{
-  padding-right: 0;
+    font-size: 16pt;
+    font-weight: 500;
+    color: rgb(255, 238, 0);
+    display: inline-block;
+    text-align: right;
 }
 </style>

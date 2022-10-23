@@ -1,5 +1,5 @@
 <template>
-  <article class="article">
+  <article class="articleComp">
     <div class="sectionArticle">
         <h1 class="textInit">Personal information =</h1>
         <div class="divSection">

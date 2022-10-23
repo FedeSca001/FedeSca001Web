@@ -1,25 +1,12 @@
 <template>
-    <div class="containHoras">{{now}}</div>
+    <div class="containHoras">{{date}}</div>
 </template>
 
 <script setup>
-let today = new Date();
-let now = today.toLocaleString();
-let identificadorDeTemporizador;
-
-function temporizadorDeRetraso() {
-  identificadorDeTemporizador = setTimeout(funcionConRetraso, 1000);
-}
-
-function funcionConRetraso() {
-  today = new Date();
-  now = today.toLocaleString();
-}
-
-function borrarAlerta() {
-  clearTimeout(identificadorDeTemporizador);
-}
-temporizadorDeRetraso()
+let date = new Date(Date.now());
+let hour = date.getHours;
+let minute = date.getMinutes;
+let seconds = date.getSeconds;
 </script>
 
 <style scoped>

@@ -14,6 +14,7 @@ export default {
 
 <style scoped>
 .footContain{
+    position: relative;
     bottom: 0;
 }
 a{
@@ -28,7 +29,7 @@ a{
     margin: 0 0.4vw;
 }
 a:hover{
-    transition: 200ms;
+    transition: 500ms;
     background-color: whitesmoke;
     color: black;
 }
