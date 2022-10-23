@@ -16,7 +16,7 @@ import FooterComp from "./components/FooterComp/FooterComp.vue"
 
 <style>
 .appStyle{
-  background-image: linear-gradient(135deg,rgb(2, 14, 68),rgb(0, 0, 134), rgb(86, 10, 131));
+  background-image: linear-gradient(135deg,rgb(2, 14, 68),rgb(14, 14, 102),rgb(87, 8, 87),purple, rgb(86, 10, 131));
   background-size: 100%;
 }
 </style>

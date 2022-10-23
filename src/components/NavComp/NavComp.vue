@@ -35,6 +35,10 @@ button{
   height: 40px;
   width: 100%;
 }
+.navComp:hover{
+  background-color: rgba(81, 255, 0, 0.205);
+  transition: 1.2s;
+}
 .hourNav{
     font-size: 16pt;
     font-weight: 500;

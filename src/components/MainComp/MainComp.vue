@@ -37,14 +37,15 @@ export default {
   font-size: 2.8vw;
 }
 h4{
+  color: white;
   padding-top: 3vw;
-  font-size: 2.4vw;
+  font-size: 24pt;
   font-weight: bold;
   text-align: center;
 }
 .textPresentacion{
-  font-size: 1.3vw;
+  font-size: 14pt;
   padding: 1vw 15vw 3vw 15vw;
-  color: black;
+  color: white;
 }
 </style>

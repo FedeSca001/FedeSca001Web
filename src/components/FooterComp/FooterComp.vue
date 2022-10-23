@@ -20,7 +20,7 @@ export default {
 a{
     font-style: none;
     font-size: 1.1vw;
-    background-color: black;
+    background-color: rgba(28, 146, 44, 0.26);
     color: white;
     padding: 0.3vw 0.8vw;
     padding-bottom: 0vw;
@@ -30,7 +30,7 @@ a{
 }
 a:hover{
     transition: 500ms;
-    background-color: whitesmoke;
-    color: black;
+    background-color: rgba(81, 255, 0, 0.39);
+    color: white;
 }
 </style>
