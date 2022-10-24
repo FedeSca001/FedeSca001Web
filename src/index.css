@@ -9,14 +9,18 @@ html{
     min-height: 100%;
 }
 .articleComp{
-    height: 33vw;
     display: flex;
     align-items: center;
+    padding: 4vw 10vw;
     gap: 2vw;
-    padding: 0vw 10vw;
     transition: 1.2s;
     background-color: rgba(255, 255, 255, 0.137);
 }
 .articleComp:hover{
     background-color: rgba(81, 255, 0, 0.39);
+}
+@media (min-width: 1000px){
+.articleComp{
+    padding: 2vw 10vw;
+}
 }

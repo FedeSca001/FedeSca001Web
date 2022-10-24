@@ -19,7 +19,6 @@
             <img src="../../assets/images/premiere.png" alt="premiere">
           </li>
       </ul>
-
   </div>
 </template>
 
@@ -37,6 +36,18 @@ export default {
   border-radius: 1vw;
 }
 img{
+  width: 6vw;
+  margin: 0.8vw;
+}
+h4{
+  font-size: 12pt;
+  margin-bottom: 0.5vw;
+}
+.list{
+  margin: 1vw auto;
+}
+@media (min-width: 1000px){
+img{
   width: 4vw;
   margin: 0.4vw;
 }
@@ -45,8 +56,8 @@ h4{
   margin-bottom: 0.5vw;
 }
 .list{
-  height: 30vw;
   width: 80vw;
   margin: 0 auto;
+}
 }
 </style>

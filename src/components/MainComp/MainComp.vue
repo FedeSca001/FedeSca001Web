@@ -34,18 +34,29 @@ export default {
   display: inline-block;
   color: white;
   font-weight: 800;
-  font-size: 2.8vw;
+  font-size: 15pt;
 }
 h4{
   color: white;
   padding-top: 3vw;
-  font-size: 2vw;
+  font-size: 16pt;
   font-weight: bold;
   text-align: center;
 }
 .textPresentacion{
-  font-size: 1.5vw;
+  font-size: 11pt;
   padding: 1vw 15vw 3vw 15vw;
   color: white;
+}
+@media (min-width: 1000px){
+  .textInit{
+    font-size: 35pt;
+  }
+  h4{
+    font-size: 30pt;
+  }
+  .textPresentacion{
+    font-size: 15pt
+  }
 }
 </style>

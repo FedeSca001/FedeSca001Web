@@ -35,37 +35,49 @@ export default {
 </script>
 
 <style scoped>
+.articleComp{
+  display: block;
+}
 .divSection{
-  font-size: 1.6vw;
+  width: 50vw;
+  font-size: 10pt;
   color: rgb(255, 0, 0);
   transition: 500ms;
 }
 div p {
   margin-left: 3vw;
-  font-size: 1.4vw;
   color: yellow;
 }
 .sectionArticle{
   display: flex;
-  gap: 0.6vw;
+  margin: 5vw 0vw;
 }
 .article{
-    background-color: black;
-    color: white;
-    height: 35vw;
-    gap: 2vw;
-    padding: 3vw 10vw;
-    transition: 600ms;
+  background-color: black;
+  color: white;
+  height: 35vw;
+  gap: 2vw;
+  padding: 3vw 10vw;
+  transition: 600ms;
 }
-
 .textInit{
+  width: 40vw;
   color: white;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 11pt;
 }
 .subText{
   color: white;
   font-weight: 400;
-  font-size: 1.5vw;
+}
+@media (min-width: 1000px){
+.divSection{
+  font-size: 16pt;
+  width: 60vw;
+}
+.textInit{
+  font-size: 18pt;
+  width: 30vw;
+}
 }
 </style>

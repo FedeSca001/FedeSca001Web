@@ -19,18 +19,25 @@ export default {
 }
 a{
     font-style: none;
-    font-size: 1.1vw;
+    font-size: 11pt;
     background-color: rgba(28, 146, 44, 0.26);
     color: white;
-    padding: 0.3vw 0.8vw;
     padding-bottom: 0vw;
-    border-top-left-radius: 0.3vw; 
-    border-top-right-radius: 0.3vw; 
-    margin: 0 0.4vw;
+    border-top-left-radius: 0.9vw; 
+    border-top-right-radius: 0.9vw; 
+    padding: 0.8vw 1.8vw;
+    margin: 0 0.8vw;
 }
 a:hover{
     transition: 500ms;
     background-color: rgba(81, 255, 0, 0.39);
     color: white;
+}
+@media (min-width: 1000px){
+    a{
+        font-size: 11pt;
+        padding: 0.3vw 0.8vw;
+        margin: 0 0.4vw;
+}
 }
 </style>

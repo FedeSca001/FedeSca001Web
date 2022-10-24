@@ -27,13 +27,13 @@ div{
   display: block;
   width: 50%;
   text-align: center;
-  margin: 1vw auto;
+  margin: 4vw auto;
 }
 .btn{
   border-radius: 0.8vw;
   border: solid 0.5px;
   padding: 1vw 2vw;
-  font-size: 2vw;
+  font-size: 14pt;
   font-weight: bold;
   color: white;
   border-color: #013658;
@@ -45,5 +45,13 @@ div{
   background-color: rgb(0, 167, 0);
   border-color: white;
   box-shadow: 0 0 10px 0 rgb(0,255,0) inset, 0 0 10px 4px rgb(0,255,0);
+}
+@media (min-width: 1000px){
+div{
+  margin: 1.5vw auto;
+}
+.btn{
+  font-size: 20pt;
+}
 }
 </style>
