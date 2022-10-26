@@ -14,7 +14,7 @@
         </div>
       </div>
     <div class="sectionArticle">
-      <h1 class="textInit">Contact me =</h1>
+      <h1 class="textInit">Contacto =</h1>
       <div class="divSection">
         {
           <p>e-mail: 'familadore@gmail.com',</p>

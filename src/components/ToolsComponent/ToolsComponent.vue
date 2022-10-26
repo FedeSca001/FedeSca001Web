@@ -1,18 +1,20 @@
 <template>
-  <div class="articleComp">
+  <div>
+      <h4>Skills</h4>
       <ul class="list">
           <li class="listTools">
-            <h4>Programming</h4>
+            <h5>Programación</h5>
             <img src="../../assets/images/html.png" alt="html">
             <img src="../../assets/images/cssimage.png" alt="css">
             <img src="../../assets/images/javascript.png" alt="javascript">
-            <img src="../../assets/images/bootstrap.png" alt="bootstrap">
             <img src="../../assets/images/jquery.png" alt="jquery">
+            <img src="../../assets/images/axios.png" alt="axios">
+            <img src="../../assets/images/bootstrap.png" alt="bootstrap">
             <img src="../../assets/images/git.png" alt="git">
             <img src="../../assets/images/vuejs.jpeg" alt="vue">
           </li>
           <li class="listTools">
-            <h4>Graphic Design</h4>
+            <h5>Graphic Design</h5>
             <img src="../../assets/images/ilustratos.png" alt="ilustratos">
             <img src="../../assets/images/photoshop.png" alt="photoshop">
             <img src="../../assets/images/indesing.png" alt="indesing">
@@ -40,7 +42,14 @@ img{
   margin: 0.8vw;
 }
 h4{
-  font-size: 12pt;
+  color: white;
+  padding-top: 3vw;
+  font-size: 30pt;
+  font-weight: bold;
+  text-align: center;
+}
+h5{
+  font-size: 20pt;
   margin-bottom: 0.5vw;
 }
 .list{

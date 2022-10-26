@@ -1,8 +1,9 @@
 <template>
   <section class="navComp">
     <router-link to="/"><button class="home">Home</button></router-link>
-    <router-link class="infPers" to="/infopersonal"><button>Personal.information/</button></router-link>
-    <router-link class="tools" to="/tools"><button>Tools/</button></router-link>
+    <router-link class="aboutLink"><button>Acerca de mí/</button></router-link>
+    <router-link class="contacme"><button>Contacto</button></router-link>
+    <router-link class="tools"><button>Skills/</button></router-link>
     <p class="containHoras">{{hour}}:{{minute}}-{{format}}/</p>
   </section>
 </template>
@@ -21,9 +22,6 @@ let selectFormat = hour > 11 ? format = 'PM' : format = 'AM'
   font-weight: 600;
   color: red;
   margin: 0 2vw;
-}
-.infPers{
-  color: yellow;
 }
 .tools{
   color:rgb(0, 255, 0);

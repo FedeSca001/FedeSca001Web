@@ -1,15 +1,19 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
 import NavComp from './components/NavComp/NavComp.vue';
-import HeaderComp from './components/HeaderComp/HeaderComp.vue';
+import MainComp from './components/MainComp/MainComp.vue';
+import InfoPersonal from './components/InfoPersonal/InfoPersonal.vue';
+import ToolsComponent from './components/ToolsComponent/ToolsComponent.vue';
+import PortFolio from './components/PortFolio/PortFolio.vue';
 import FooterComp from "./components/FooterComp/FooterComp.vue"
 </script>
 
 <template>
   <div class="appStyle">
     <NavComp/>
-    <HeaderComp/>
-    <RouterView />
+    <MainComp/>
+    <InfoPersonal/>
+    <ToolsComponent/>
+    <PortFolio/>
     <FooterComp/>
   </div>
 </template>
