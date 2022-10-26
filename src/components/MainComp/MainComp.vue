@@ -49,14 +49,14 @@ export default {
 }
 h4{
   color: white;
-  padding-top: 3vw;
-  font-size: 16pt;
+  padding: 1.5vw;
+  font-size: 23pt;
   font-weight: bold;
   text-align: center;
 }
 .textPresentacion{
   font-size: 11pt;
-  padding: 1vw 15vw 3vw 15vw;
+  padding: 1vw 15vw;
   color: white;
 }
 @media (min-width: 1000px){

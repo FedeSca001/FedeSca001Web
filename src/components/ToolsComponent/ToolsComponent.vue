@@ -1,22 +1,22 @@
 <template>
-  <div>
+  <div class="containTools">
       <h4>Skills</h4>
       <ul class="list">
           <li class="listTools">
             <h5>Programación</h5>
-            <img src="../../assets/images/html.png" alt="html">
-            <img src="../../assets/images/cssimage.png" alt="css">
-            <img src="../../assets/images/javascript.png" alt="javascript">
-            <img src="../../assets/images/jquery.png" alt="jquery">
+            <img src="../../assets/images/html.jpg" alt="html">
+            <img src="../../assets/images/css.jpg" alt="css">
+            <img src="../../assets/images/js.jpg" alt="javascript">
+            <img src="../../assets/images/jquery.jpg" alt="jquery">
             <img src="../../assets/images/axios.png" alt="axios">
             <img src="../../assets/images/bootstrap.png" alt="bootstrap">
-            <img src="../../assets/images/git.png" alt="git">
-            <img src="../../assets/images/vuejs.jpeg" alt="vue">
+            <img src="../../assets/images/git.jpg" alt="git">
+            <img src="../../assets/images/vue.jpg" alt="vue">
           </li>
           <li class="listTools">
             <h5>Graphic Design</h5>
-            <img src="../../assets/images/ilustratos.png" alt="ilustratos">
-            <img src="../../assets/images/photoshop.png" alt="photoshop">
+            <img src="../../assets/images/ilustrator.jpg" alt="ilustratos">
+            <img src="../../assets/images/photoshop.jpg" alt="photoshop">
             <img src="../../assets/images/indesing.png" alt="indesing">
             <img src="../../assets/images/premiere.png" alt="premiere">
           </li>
@@ -31,20 +31,22 @@ export default {
 </script>
 
 <style scoped>
+
 .listTools{
-  background-color: white;
   padding: 2vw;
   margin: 1.5vw auto;
-  border-radius: 1vw;
 }
 img{
-  width: 6vw;
-  margin: 0.8vw;
+  width: 7vw;
+  margin: 1vw;
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px;
 }
 h4{
   color: white;
   padding-top: 3vw;
-  font-size: 30pt;
+  font-size: 23pt;
   font-weight: bold;
   text-align: center;
 }
@@ -56,12 +58,9 @@ h5{
   margin: 1vw auto;
 }
 @media (min-width: 1000px){
-img{
-  width: 4vw;
-  margin: 0.4vw;
-}
+
 h4{
-  font-size: 2vw;
+  font-size: 30pt;
   margin-bottom: 0.5vw;
 }
 .list{

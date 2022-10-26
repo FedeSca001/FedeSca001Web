@@ -14,7 +14,6 @@ export default {
 
 <style scoped>
 .footContain{
-    position: fixed;
     bottom: 0;
 }
 a{
@@ -23,8 +22,8 @@ a{
     background-color: rgba(28, 146, 44, 0.26);
     color: white;
     padding-bottom: 0vw;
-    border-top-left-radius: 0.9vw; 
-    border-top-right-radius: 0.9vw; 
+    border-top-left-radius: 0.9vw;
+    border-top-right-radius: 0.9vw;
     padding: 0.8vw 1.8vw;
     margin: 0 0.8vw;
 }

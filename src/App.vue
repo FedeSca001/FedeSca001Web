@@ -11,9 +11,9 @@ import FooterComp from "./components/FooterComp/FooterComp.vue"
   <div class="appStyle">
     <NavComp/>
     <MainComp/>
+    <PortFolio/>
     <InfoPersonal/>
     <ToolsComponent/>
-    <PortFolio/>
     <FooterComp/>
   </div>
 </template>
