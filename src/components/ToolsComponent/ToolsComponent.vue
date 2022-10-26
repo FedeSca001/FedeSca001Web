@@ -37,11 +37,15 @@ export default {
   margin: 1.5vw auto;
 }
 img{
+  transition: 1s;
   width: 7vw;
   margin: 1vw;
   background-color: white;
   border-radius: 10%;
   padding: 5px;
+}
+img:hover{
+  width: 8vw;
 }
 h4{
   color: white;
@@ -52,7 +56,9 @@ h4{
 }
 h5{
   font-size: 20pt;
-  margin-bottom: 0.5vw;
+  margin-bottom: 0.4vw;
+  color: white;
+
 }
 .list{
   margin: 1vw auto;
