@@ -1,5 +1,5 @@
 <template>
-  <div class="containTools">
+  <div class="containTools" id="containTools">
       <h4>Skills</h4>
       <ul class="list">
           <li class="listTools">
@@ -37,7 +37,7 @@ export default {
   margin: 1.5vw auto;
 }
 img{
-  transition: 1s;
+  transition: 400ms;
   width: 7vw;
   margin: 1vw;
   background-color: white;
@@ -45,7 +45,7 @@ img{
   padding: 5px;
 }
 img:hover{
-  width: 8vw;
+  box-shadow: 2px 6px 45px #ff714dc7;
 }
 h4{
   color: white;

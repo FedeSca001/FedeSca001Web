@@ -1,9 +1,9 @@
 <template>
   <section class="navComp">
-    <router-link to="/"><button class="home">Home</button></router-link>
-    <router-link class="aboutLink"><button>Acerca de mí/</button></router-link>
-    <router-link class="contacme"><button>Contacto</button></router-link>
-    <router-link class="tools"><button>Skills/</button></router-link>
+    <a href="#appStyle"><button class="home">Home</button></a>
+    <a href="#articleMainComp" class="aboutLink"><button>Acerca de mí/</button></a>
+    <a href="#infoPersonal" class="contacme"><button>Contacto/</button></a>
+    <a href="#containTools" class="tools"><button>Skills/</button></a>
     <p class="containHoras">{{hour}}:{{minute}}-{{format}}/</p>
   </section>
 </template>
@@ -41,11 +41,14 @@ button{
 }
 .navComp{
   display: block;
+  position: fixed;
+  top: 0;
   height: 41px;
+  background-color: rgba(42, 133, 0, 0.205);
   width: 100%;
 }
 .navComp:hover{
-  background-color: rgba(81, 255, 0, 0.205);
+  background-color: rgb(19, 58, 0,0.8);
   transition: 1.2s;
 }
 @media (min-width: 1000px){

@@ -74,7 +74,7 @@ export default {
 .card{
     height: 23vw;
     box-shadow: 0px 12px 52px rgba(0, 0, 0, 0.8);
-    transition: 1.2s;
+
 }
 .card:hover{
     box-shadow: 0px 6px 50px 5px #edff4d63 inset, 2px 6px 25px #edff4d, 0px 12px 52px rgba(187, 245, 194, 0.322);

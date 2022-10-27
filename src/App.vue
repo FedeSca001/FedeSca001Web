@@ -8,12 +8,12 @@ import FooterComp from "./components/FooterComp/FooterComp.vue"
 </script>
 
 <template>
-  <div class="appStyle">
+  <div class="appStyle" id="appStyle">
     <NavComp/>
     <MainComp/>
     <PortFolio/>
-    <InfoPersonal/>
     <ToolsComponent/>
+    <InfoPersonal/>
     <FooterComp/>
   </div>
 </template>
@@ -21,6 +21,7 @@ import FooterComp from "./components/FooterComp/FooterComp.vue"
 <style>
 .appStyle{
   min-height: 100vh;
+  padding-top: 60px;
   background-image: linear-gradient(135deg,rgb(2, 14, 68),rgb(14, 14, 102),rgb(87, 8, 87),purple, rgb(86, 10, 131));
   background-size: 100%;
 }

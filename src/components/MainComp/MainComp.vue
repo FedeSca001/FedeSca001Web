@@ -1,6 +1,6 @@
 <template>
 <div>
-  <article class="articleMainComp">
+  <article class="articleMainComp" id="articleMainComp">
     <img src="../../assets/images/fotoperfil.jpg" alt="imgperfil" class="imgProfile">
     <div class="textInit">
       <h1>Federico Scarpecci</h1>
