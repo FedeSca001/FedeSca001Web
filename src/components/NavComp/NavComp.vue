@@ -1,9 +1,10 @@
 <template>
   <section class="navComp">
     <a href="#appStyle"><button class="home">Home</button></a>
-    <a href="#articleMainComp" class="aboutLink"><button>Acerca de mí/</button></a>
+    <a href="#about" class="aboutLink"><button>Acerca de mí/</button></a>
+    <a href="#portfolioId" class="portfolio"><button>Portfolio/</button></a>
+    <a href="#containTools" class="tools"><button>Herramientas/</button></a>
     <a href="#infoPersonal" class="contacme"><button>Contacto/</button></a>
-    <a href="#containTools" class="tools"><button>Skills/</button></a>
     <p class="containHoras">{{hour}}:{{minute}}-{{format}}/</p>
   </section>
 </template>
@@ -24,7 +25,16 @@ let selectFormat = hour > 11 ? format = 'PM' : format = 'AM'
   margin: 0 2vw;
 }
 .tools{
+  color:rgb(218, 209, 78);
+}
+.aboutLink{
+  color: white;
+}
+.portfolio{
   color:rgb(0, 255, 0);
+}
+.contacme{
+  color: rgb(43, 226, 180);
 }
 button{
   background: none;

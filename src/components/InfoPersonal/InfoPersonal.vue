@@ -35,6 +35,10 @@ export default {
 </script>
 
 <style scoped>
+.infoPersonal{
+  padding: 2vw;
+  justify-content: center;
+}
 .articleComp{
   display: block;
 }
@@ -52,16 +56,10 @@ div p {
   display: flex;
   margin: 5vw 0vw;
 }
-.article{
-  background-color: black;
-  color: white;
-  height: 35vw;
-  gap: 2vw;
-  padding: 3vw 10vw;
-  transition: 600ms;
-}
 .textInit{
   width: 40vw;
+  text-align: end;
+  padding: 0vw 1vw;
   color: white;
   font-weight: 800;
   font-size: 11pt;

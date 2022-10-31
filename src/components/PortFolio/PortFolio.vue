@@ -1,5 +1,5 @@
 <template>
-  <article class="articlePortFolioComp">
+  <article class="articlePortFolioComp" id="portfolioId">
     <h4>Portfolio</h4>
     <div class="containCard">
         <v-card v-for="item in items" :key="item.id"
@@ -74,7 +74,6 @@ export default {
 .card{
     height: 23vw;
     box-shadow: 0px 12px 52px rgba(0, 0, 0, 0.8);
-
 }
 .card:hover{
     box-shadow: 0px 6px 50px 5px #edff4d63 inset, 2px 6px 25px #edff4d, 0px 12px 52px rgba(187, 245, 194, 0.322);

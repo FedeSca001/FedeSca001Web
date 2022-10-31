@@ -18,8 +18,8 @@ export default {
 }
 a{
     font-style: none;
-    font-size: 11pt;
-    background-color: rgba(28, 146, 44, 0.26);
+    font-size: 51pt;
+    background-color: rgba(120, 122, 0, 0.876);
     color: white;
     padding-bottom: 0vw;
     border-top-left-radius: 0.9vw;

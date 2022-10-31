@@ -1,6 +1,6 @@
 <template>
   <div class="containTools" id="containTools">
-      <h4>Skills</h4>
+      <h4>Herramientas</h4>
       <ul class="list">
           <li class="listTools">
             <h5>Programación</h5>
@@ -14,7 +14,7 @@
             <img src="../../assets/images/vue.jpg" alt="vue">
           </li>
           <li class="listTools">
-            <h5>Graphic Design</h5>
+            <h5>Diseño gráfico</h5>
             <img src="../../assets/images/ilustrator.jpg" alt="ilustratos">
             <img src="../../assets/images/photoshop.jpg" alt="photoshop">
             <img src="../../assets/images/indesing.png" alt="indesing">
@@ -33,7 +33,7 @@ export default {
 <style scoped>
 
 .listTools{
-  padding: 2vw;
+  padding: 1vw;
   margin: 1.5vw auto;
 }
 img{
@@ -53,6 +53,7 @@ h4{
   font-size: 23pt;
   font-weight: bold;
   text-align: center;
+  margin-top: 3vw;
 }
 h5{
   font-size: 20pt;
@@ -61,7 +62,7 @@ h5{
 
 }
 .list{
-  margin: 1vw auto;
+  margin: 0.5vw auto;
 }
 @media (min-width: 1000px){
 
