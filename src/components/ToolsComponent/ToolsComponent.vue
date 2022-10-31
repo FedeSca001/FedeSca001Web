@@ -4,21 +4,61 @@
       <ul class="list">
           <li class="listTools">
             <h5>Programación</h5>
-            <img src="../../assets/images/html.jpg" alt="html">
-            <img src="../../assets/images/css.jpg" alt="css">
-            <img src="../../assets/images/js.jpg" alt="javascript">
-            <img src="../../assets/images/jquery.jpg" alt="jquery">
-            <img src="../../assets/images/axios.png" alt="axios">
-            <img src="../../assets/images/bootstrap.png" alt="bootstrap">
-            <img src="../../assets/images/git.jpg" alt="git">
-            <img src="../../assets/images/vue.jpg" alt="vue">
+              <div class="contTools">
+                <div>
+                  <img src="../../assets/images/html.jpg" alt="html">
+                  <p>HTML</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/css.jpg" alt="css">
+                  <p>CSS</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/js.jpg" alt="javascript">
+                  <p>JS</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/jquery.jpg" alt="jquery">
+                  <p>JQUERY</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/axios.png" alt="axios">
+                  <p>AXIOS</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/bootstrap.png" alt="bootstrap">
+                  <p>BOOTP</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/git.jpg" alt="git">
+                  <p>GIT</p>
+                </div>
+                <div>
+                  <img src="../../assets/images/vue.jpg" alt="vue">
+                  <p>VUE JS</p>
+                </div>
+              </div>
           </li>
           <li class="listTools">
             <h5>Diseño gráfico</h5>
-            <img src="../../assets/images/ilustrator.jpg" alt="ilustratos">
-            <img src="../../assets/images/photoshop.jpg" alt="photoshop">
-            <img src="../../assets/images/indesing.png" alt="indesing">
-            <img src="../../assets/images/premiere.png" alt="premiere">
+            <div class="contTools">
+              <div>
+                <img src="../../assets/images/ilustrator.jpg" alt="ilustratos">
+                <p>ILUSTRATOR</p>
+              </div>
+              <div>
+                <img src="../../assets/images/photoshop.jpg" alt="photoshop">
+                <p>PHOTOSHOP</p>
+              </div>
+              <div>
+                <img src="../../assets/images/indesing.png" alt="indesing">
+                <p>INDESIGN</p>
+              </div>
+              <div>
+                <img src="../../assets/images/premiere.png" alt="premiere">
+                <p>PREMIERE</p>
+              </div>
+            </div>
           </li>
       </ul>
   </div>
@@ -31,13 +71,15 @@ export default {
 </script>
 
 <style scoped>
-
+.contTools{
+  display: flex;
+}
 .listTools{
   padding: 1vw;
   margin: 1.5vw auto;
 }
 img{
-  transition: 400ms;
+  transition: 100ms;
   width: 7vw;
   margin: 1vw;
   background-color: white;
@@ -45,7 +87,7 @@ img{
   padding: 5px;
 }
 img:hover{
-  box-shadow: 2px 6px 45px #ff714dc7;
+  box-shadow: 2px 6px 65px #ff714dc7;
 }
 h4{
   color: white;
@@ -57,15 +99,19 @@ h4{
 }
 h5{
   font-size: 20pt;
-  margin-bottom: 0.4vw;
   color: white;
-
+}
+p{
+  font-size: 1.3vw;
+  width: 7vw;
+  margin: 0vw auto;
+  color: white;
+  text-align: center;
 }
 .list{
   margin: 0.5vw auto;
 }
 @media (min-width: 1000px){
-
 h4{
   font-size: 30pt;
   margin-bottom: 0.5vw;
