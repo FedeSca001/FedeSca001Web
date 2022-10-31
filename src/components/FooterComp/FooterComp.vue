@@ -18,7 +18,7 @@ export default {
 }
 a{
     font-style: none;
-    font-size: 51pt;
+    font-size: 9pt;
     background-color: rgba(120, 122, 0, 0.876);
     color: white;
     padding-bottom: 0vw;
