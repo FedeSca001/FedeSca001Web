@@ -5,16 +5,11 @@
     <a href="#portfolioId" class="portfolio"><button>Portfolio/</button></a>
     <a href="#containTools" class="tools"><button>Herramientas/</button></a>
     <a href="#infoPersonal" class="contacme"><button>Contacto/</button></a>
-    <p class="containHoras">{{hour}}:{{minute}}-{{format}}/</p>
   </section>
 </template>
 
 <script setup>
-let date = new Date();
-let hour = date.getHours();
-let minute = date.getMinutes();
-let format = '';
-let selectFormat = hour > 11 ? format = 'PM' : format = 'AM'
+
 </script>
 
 <style scoped>
@@ -42,12 +37,6 @@ button{
   margin: 0.1vw 0.4vw;
   font-weight: 300;
   font-size: 11pt;
-}
-.containHoras{
-    font-size: 11pt;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    display: inline-block;
 }
 .navComp{
   display: block;
