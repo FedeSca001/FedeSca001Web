@@ -2,7 +2,7 @@
     <section class="footContain">
         <a href="https://github.com/FedeSca001" target="blanck">Github</a>
         <a href="https://www.linkedin.com/in/federico-scarpecci-developer/" target="blanck">Linkedin</a>
-        <a href="https://twitter.com/FedeScarpecci" target="blanck">Twitter</a>
+        <a href="https://twitter.com/FedeHarryScarpe" target="blanck">Twitter</a>
     </section>
 </template>
 

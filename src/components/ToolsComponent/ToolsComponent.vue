@@ -80,7 +80,7 @@ export default {
 }
 img{
   transition: 100ms;
-  width: 7vw;
+  width: 10vw;
   margin: 1vw;
   background-color: white;
   border-radius: 10%;
@@ -102,7 +102,7 @@ h5{
   color: white;
 }
 p{
-  font-size: 1.3vw;
+  font-size: 5pt;
   width: 7vw;
   margin: 0vw auto;
   color: white;
@@ -115,6 +115,16 @@ p{
 h4{
   font-size: 30pt;
   margin-bottom: 0.5vw;
+}
+img{
+  width: 7vw;
+}
+p{
+  font-size: 1.3vw;
+  width: 7vw;
+  margin: 0vw auto;
+  color: white;
+  text-align: center;
 }
 .list{
   width: 80vw;

@@ -14,7 +14,7 @@
 
 <style scoped>
 .home{
-  font-size: 20pt;
+  font-size: 12pt;
   font-weight: 600;
   color: red;
   margin: 0 2vw;
@@ -36,15 +36,15 @@ button{
   border: none;
   margin: 0.1vw 0.4vw;
   font-weight: 300;
-  font-size: 11pt;
+  font-size: 8pt;
 }
 .navComp{
   display: block;
   position: fixed;
   top: 0;
   height: 41px;
-  background-color: rgba(42, 133, 0, 0.205);
   width: 100%;
+  background-color: rgba(42, 133, 0, 0.205);
 }
 .navComp:hover{
   background-color: rgb(19, 58, 0,0.8);
