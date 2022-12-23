@@ -1,23 +1,30 @@
 [
-    {
-        "title": "Food-App",
-        "subTitle": "E-commerce Vue 3",
-        "description": "Éste proyecto utiliza Vue 3 con vite, pinia, vuetify y axios, y también hace una llamada API.",
-        "link": "https://github.com/FedeSca001/foods-app",
-        "deploy": "https://foods-app-vue3.web.app/"
-    },
-    {
-        "title": " Calculator-Functions",
-        "subTitle": "Vuex Practice",
-        "description": "Éste proyecto fue una práctica de los 'estados' de vuex. Todas los datos se almacenan en las variables globales y son mostrados en todos los componentes.",
-        "link": "https://github.com/FedeSca001/Calculator-Functions",
-        "deploy": "https://function-aplication.netlify.app"
-    },
-    {
-        "title": "Kiosco Fantasia Js",
-        "subTitle": "E-commerce vanilla Js",
-        "description": "Es un proyecto de un kiosco ficticio donde un cliente ingresa sus datos y encarga mercadería del kiosco. Utiliza jquery y ajax.",
-        "link": "https://github.com/FedeSca001/Proyecto-final-Coder",
-        "deploy": "https://kiosco-fantacia.netlify.app"
-    }
+        {
+                "title": "Food-App",
+                "subTitle": "E-commerce Vue 3",
+                "description": "Éste proyecto utiliza Vue 3 con vite, pinia, vuetify y axios, y también hace una llamada API.",
+                "link": "https://github.com/FedeSca001/foods-app",
+                "deploy": "https://foods-app-vue3.web.app/"
+        },
+        {
+                "title": " ToDo App",
+                "subTitle": "Mi primer servidor",
+                "description": "En éste proyecto lo verdaderamente importante es prestar atención al funcionamiento y la comunicación entre el front y el back. Es mi primer servidor creado y hosteado.",
+                "link": "https://github.com/FedeSca001/ToDo-list-Mevn-stack",
+                "deploy": "https://to-do-list-full-stack.netlify.app"
+        },
+        {
+                "title": " Calculator",
+                "subTitle": "Vuex Practice",
+                "description": "Éste proyecto fue una práctica de los 'estados' de vuex. Todas los datos se almacenan en las variables globales y son mostrados en todos los componentes.",
+                "link": "https://github.com/FedeSca001/Calculator-Functions",
+                "deploy": "https://function-aplication.netlify.app"
+        },
+        {
+                "title": "Fantasia Js",
+                "subTitle": "E-commerce vanilla Js",
+                "description": "Es un proyecto de un kiosco ficticio donde un cliente ingresa sus datos y encarga mercadería del kiosco. Utiliza jquery y ajax.",
+                "link": "https://github.com/FedeSca001/Proyecto-final-Coder",
+                "deploy": "https://kiosco-fantacia.netlify.app"
+        }
 ]
