@@ -16,11 +16,6 @@
                                         </h6>
                                 </div>
                                 <div class="links">
-                                        <img
-                                                class="icon"
-                                                src="../../assets/images/githubicon.png"
-                                                alt="github"
-                                        />
                                         <a
                                                 :href="item.link"
                                                 target="_blank"
@@ -88,6 +83,7 @@
         }
         .link {
                 font-size: 12pt;
+                margin: 0 5px;
         }
         .about {
                 color: white;
@@ -106,9 +102,6 @@
                 box-shadow: 0px 6px 50px 5px #edff4d63 inset,
                         2px 6px 25px #edff4d,
                         0px 12px 52px rgba(187, 245, 194, 0.322);
-        }
-        .icon {
-                height: 1.2vw;
         }
         a {
                 font-style: none;

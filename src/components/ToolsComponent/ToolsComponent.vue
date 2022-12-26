@@ -80,7 +80,7 @@ export default {
 }
 img{
   transition: 100ms;
-  width: 10vw;
+  width: 8.5vw;
   margin: 1vw;
   background-color: white;
   border-radius: 10%;
@@ -102,7 +102,7 @@ h5{
   color: white;
 }
 p{
-  font-size: 5pt;
+  font-size: 6pt;
   width: 7vw;
   margin: 0vw auto;
   color: white;
