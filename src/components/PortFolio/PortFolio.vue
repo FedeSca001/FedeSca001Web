@@ -5,8 +5,7 @@
                         <div
                                 v-for="item in items"
                                 :key="item.id"
-                                class="mx-auto card"
-                                width="28%"
+                                class="card"
                         >
                                 <div class="titleCard">
                                         <h5 class="title">
@@ -76,32 +75,27 @@
         .links {
                 background-color: white;
                 text-align: center;
-                margin-top: 8vw;
+                margin-top: 0.2vw;
                 padding: 4pt;
         }
-        .titleCard {
-                height: 6vw;
-                font-weight: 900;
-                color: black;
-        }
         .title {
-                font-size: 12pt;
+                font-size: 25pt;
                 color: white;
         }
         .subtitle {
-                font-size: 11pt;
+                font-size: 15pt;
                 color: white;
         }
         .link {
-                font-size: 10pt;
+                font-size: 12pt;
         }
         .about {
                 color: white;
-                font-size: 9pt;
+                font-size: 12pt;
                 padding: 1.5vw;
         }
         .card {
-                height: 200px;
+                margin: 20px auto;
                 width: 80vw;
                 box-shadow: 0px 12px 52px rgba(0, 0, 0, 0.8);
                 padding: 20px;
@@ -127,19 +121,15 @@
                 text-align: center;
         }
         .containCard {
-                margin: 15px;
-                gap: 3vw;
-                display: block;
+                justify-content: center;
         }
         @media (min-width: 1000px) {
-                .containCard {
-                        display: flex;
-                }
                 .card {
-                        height: 30vw;
-                        width: 30vw;
+                        height: 20vw;
+                        width: 80vw;
                         padding: 30px;
                         border-radius: 20px;
+                        margin: 25px auto;
                 }
                 .about {
                         color: white;
@@ -147,7 +137,7 @@
                         padding: 1.5vw;
                 }
                 .title {
-                        font-size: 2vw;
+                        font-size: 2.5vw;
                         color: white;
                 }
                 .subtitle {

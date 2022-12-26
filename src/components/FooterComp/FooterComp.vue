@@ -8,9 +8,6 @@
                         target="blanck"
                         >Linkedin</a
                 >
-                <a href="https://twitter.com/FedeHarryScarpe" target="blanck"
-                        >Twitter</a
-                >
         </section>
 </template>
 
