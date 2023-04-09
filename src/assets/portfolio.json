@@ -14,6 +14,13 @@
                 "deploy": "https://to-do-list-full-stack.netlify.app"
         },
         {
+                "title": " Parking Sites",
+                "subTitle": "Conecto el back-end con el front-end.",
+                "description": "En éste proyecto lo verdaderamente importante es prestar atención al funcionamiento y la comunicación entre el front y el back. Es mi primer servidor creado y hosteado.",
+                "link": "https://github.com/FedeSca001/parking-MEVN-front",
+                "deploy": "https://parking-sites.netlify.appp"
+        },
+        {
                 "title": " Calculator",
                 "subTitle": "Vuex Practice",
                 "description": "Éste proyecto fue una práctica de los 'estados' de vuex. Todas los datos se almacenan en las variables globales y son mostrados en todos los componentes.",
