@@ -1,75 +1,70 @@
 <template>
-        <section class="navComp">
-                <a href="#appStyle"><button class="home">Home</button></a>
-                <a href="#about" class="aboutLink"
-                        ><button>Acerca de mí/</button></a
-                >
-                <a href="#portfolioId" class="portfolio"
-                        ><button>Portfolio/</button></a
-                >
-                <a href="#containTools" class="tools"
-                        ><button>Herramientas/</button></a
-                >
-                <a href="#infoPersonal" class="contacme"
-                        ><button>Contacto/</button></a
-                >
-        </section>
+  <section class="navComp">
+    <a href="#appStyle"><button class="home">Home</button></a>
+    <a href="#about" class="aboutLink"><button>Acerca de mí </button></a>
+    <a href="#portfolioId" class="portfolio"><button>Portfolio </button></a>
+    <a href="#containTools" class="tools"><button>Herramientas </button></a>
+    <a href="#infoPersonal" class="contactMe"><button>Contacto </button></a>
+  </section>
 </template>
 
-<script setup></script>
-
 <style scoped>
-        .home {
-                font-size: 12pt;
-                font-weight: 600;
-                color: red;
-                margin: 0 2vw;
-        }
-        .tools {
-                color: rgb(218, 209, 78);
-        }
-        .aboutLink {
-                color: white;
-        }
-        .portfolio {
-                color: rgb(0, 255, 0);
-        }
-        .contacme {
-                color: rgb(43, 226, 180);
-        }
-        button {
-                background: none;
-                border: none;
-                margin: 0.1vw 0.4vw;
-                font-weight: 300;
-                font-size: 8pt;
-        }
-        .navComp {
-                display: block;
-                position: fixed;
-                top: 0;
-                height: 41px;
-                width: 100%;
-                background-color: rgba(42, 133, 0, 0.205);
-        }
-        .navComp:hover {
-                background-color: rgb(19, 58, 0, 0.8);
-                transition: 1.2s;
-        }
-        @media (min-width: 1000px) {
-                .home {
-                        font-size: 24pt;
-                }
-                button {
-                        font-size: 16pt;
-                }
-                .containHoras {
-                        font-size: 16pt;
-                }
-                .navComp {
-                        height: 60px;
-                        width: 100%;
-                        padding: 0.2vw 0;
-                }
-        }
+.navComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(42, 133, 0, 0.2);
+  transition: background-color 0.5s;
+}
+
+.navComp:hover {
+  background-color: rgba(19, 58, 0, 0.8);
+}
+
+.home {
+  font-size: 16pt;
+  font-weight: 600;
+  color: red;
+  margin: 0 10px;
+}
+
+.aboutLink {
+  color: white;
+}
+
+.portfolio {
+  color: rgb(0, 255, 0);
+}
+
+.tools {
+  color: rgb(218, 209, 78);
+}
+
+.contactMe {
+  color: rgb(43, 226, 180);
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 1px 4px;
+  font-weight: 300;
+  font-size: 10pt;
+  transition: color 0.3s;
+}
+
+@media (min-width: 1000px) {
+  .home {
+    font-size: 24pt;
+    margin: 0 20px;
+  }
+
+  button {
+    font-size: 16pt;
+  }
+}
 </style>

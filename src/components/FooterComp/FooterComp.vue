@@ -1,47 +1,52 @@
 <template>
-        <section class="footContain">
-                <a href="https://github.com/FedeSca001" target="blanck"
-                        >Github</a
-                >
-                <a
-                        href="https://www.linkedin.com/in/federico-scarpecci-developer/"
-                        target="blanck"
-                        >Linkedin</a
-                >
-        </section>
+  <section class="footer">
+    <a href="https://github.com/FedeSca001" target="_blank" class="footer-link">Github</a>
+    <a href="https://www.linkedin.com/in/federico-scarpecci-developer/" target="_blank" class="footer-link">Linkedin</a>
+    <a href="https://twitter.com/tu_usuario" target="_blank" class="footer-link">Twitter</a>
+    <a href="https://www.instagram.com/tu_usuario" target="_blank" class="footer-link">Instagram</a>
+  </section>
 </template>
 
 <script>
-        export default {
-                name: "footer-comp",
-        };
+export default {
+  name: "FooterComp",
+};
 </script>
 
 <style scoped>
-        .footContain {
-                bottom: 0;
-        }
-        a {
-                font-style: none;
-                font-size: 9pt;
-                background-color: rgba(120, 122, 0, 0.876);
-                color: white;
-                padding-bottom: 0vw;
-                border-top-left-radius: 0.9vw;
-                border-top-right-radius: 0.9vw;
-                padding: 0.8vw 1.8vw;
-                margin: 0 0.8vw;
-        }
-        a:hover {
-                transition: 500ms;
-                background-color: rgba(81, 255, 0, 0.39);
-                color: white;
-        }
-        @media (min-width: 1000px) {
-                a {
-                        font-size: 11pt;
-                        padding: 0.3vw 0.8vw;
-                        margin: 0 0.4vw;
-                }
-        }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.footer-link:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 0.75rem;
+  }
+
+  .footer-link {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+  }
+}
 </style>

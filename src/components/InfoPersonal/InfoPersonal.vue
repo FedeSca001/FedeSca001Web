@@ -1,90 +1,128 @@
 <template>
-        <article class="infoPersonal" id="infoPersonal">
-                <div class="sectionArticle">
-                        <h1 class="textInit">Personal information =</h1>
-                        <div class="divSection">
-                                {
-                                <p>name: 'Federico Scarpecci',</p>
-                                <p>age: 30,</p>
-                                <p>nationality: Argentinan,</p>
-                                <p>now-living: Argentinan,</p>
-                                <p>language: 'Spanish',</p>
-                                <p>
-                                        studies: ['HTML','Css','Javascript','Vue
-                                        Js','Vuex']
-                                </p>
-                                }
-                        </div>
-                </div>
-                <div class="sectionArticle">
-                        <h1 class="textInit">Contacto =</h1>
-                        <div class="divSection">
-                                {
-                                <p>e-mail: 'familadore@gmail.com',</p>
-                                <p>phone: '+393511911615',</p>
-                                <p>
-                                        address: 'Vía Rubino Nicodemi 42 -
-                                        Fisciano - Salerno - Italia.'
-                                </p>
-                                <p>instagram: 'instagram.com/fedesca001/',</p>
-                                <p>
-                                        linkedin:
-                                        'linkedin.com/in/federico-scarpecci-developer/',
-                                </p>
-                                }
-                        </div>
-                </div>
-        </article>
+  <article class="infoPersonal" id="infoPersonal">
+    <div class="section">
+      <h1 class="sectionTitle">Personal Information</h1>
+      <ul class="infoList">
+        <li>
+          <span class="infoLabel">Name:</span>
+          <span class="infoValue">Federico Scarpecci</span>
+        </li>
+        <li>
+          <span class="infoLabel">Age:</span>
+          <span class="infoValue">30</span>
+        </li>
+        <li>
+          <span class="infoLabel">Nationality:</span>
+          <span class="infoValue">Argentinian - Italian</span>
+        </li>
+        <li>
+          <span class="infoLabel">Current Location:</span>
+          <span class="infoValue">Argentinian</span>
+        </li>
+        <li>
+          <span class="infoLabel">Language:</span>
+          <span class="infoValue">Spanish</span>
+        </li>
+        <li>
+          <span class="infoLabel">Studies:</span>
+          <span class="infoValue">HTML, CSS, JavaScript, Vue.js, Vuex</span>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <h1 class="sectionTitle">Contact</h1>
+      <ul class="infoList">
+        <li>
+          <span class="infoLabel">Email:</span>
+          <span class="infoValue">familadore@gmail.com</span>
+        </li>
+        <li>
+          <span class="infoLabel">Phone:</span>
+          <span class="infoValue">+393511911615</span>
+        </li>
+        <li>
+          <span class="infoLabel">Address:</span>
+          <span class="infoValue">Palo Mayor 1, Málaga, Andaluzia, España</span>
+        </li>
+        <li>
+          <span class="infoLabel">Instagram:</span>
+          <span class="infoValue">instagram.com/fedesca001/</span>
+        </li>
+        <li>
+          <span class="infoLabel">LinkedIn:</span>
+          <span class="infoValue">linkedin.com/in/federico-scarpecci-developer/</span>
+        </li>
+      </ul>
+    </div>
+  </article>
 </template>
 
 <script>
-        export default {
-                name: "InfoPersonal",
-        };
+export default {
+  name: "InfoPersonal",
+};
 </script>
 
 <style scoped>
-        .infoPersonal {
-                padding: 2vw;
-                justify-content: center;
-        }
-        .articleComp {
-                display: block;
-        }
-        .divSection {
-                width: 50vw;
-                font-size: 10pt;
-                color: rgb(255, 0, 0);
-                transition: 500ms;
-        }
-        div p {
-                margin-left: 3vw;
-                color: yellow;
-        }
-        .sectionArticle {
-                display: flex;
-                margin: 5vw 0vw;
-        }
-        .textInit {
-                width: 40vw;
-                text-align: end;
-                padding: 0vw 1vw;
-                color: white;
-                font-weight: 800;
-                font-size: 11pt;
-        }
-        .subText {
-                color: white;
-                font-weight: 400;
-        }
-        @media (min-width: 1000px) {
-                .divSection {
-                        font-size: 16pt;
-                        width: 60vw;
-                }
-                .textInit {
-                        font-size: 18pt;
-                        width: 30vw;
-                }
-        }
+.infoPersonal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.section {
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease-in-out;
+  color: #ff3860;
+}
+
+.infoList {
+  list-style: none;
+  padding: 0;
+}
+
+.infoList li {
+  margin-bottom: 0.5rem;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.infoLabel {
+  font-weight: bold;
+  color: #ff3860;
+}
+
+.infoValue {
+  font-weight: normal;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 </style>
