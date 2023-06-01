@@ -112,7 +112,7 @@ h4 {
 
 @media (min-width: 1000px) {
   .card {
-    height: 20vw;
+    height: auto;
     width: 40vw;
     padding: 30px;
     border-radius: 20px;
@@ -122,6 +122,8 @@ h4 {
   .about {
     font-size: 1.3vw;
     padding: 1.5vw;
+    height: 100%;
+    overflow: auto;
   }
 
   .title {
