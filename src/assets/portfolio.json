@@ -29,7 +29,7 @@
                 "img":"parking-app-img",
                 "description": "En éste proyecto lo verdaderamente importante es prestar atención al funcionamiento y la comunicación entre el front y el back. Es mi primer servidor creado y hosteado.",
                 "link": "https://github.com/FedeSca001/parking-MEVN-front",
-                "deploy": "https://parking-sites.netlify.appp"
+                "deploy": "https://parking-sites.netlify.app/"
         },
         {
                 "title": "Calculator",
