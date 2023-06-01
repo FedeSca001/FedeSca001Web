@@ -1,10 +1,10 @@
 <template>
   <section class="navComp">
     <a href="#appStyle"><button class="home">Home</button></a>
-    <a href="#about" class="aboutLink"><button>Acerca de mí </button></a>
-    <a href="#portfolioId" class="portfolio"><button>Portfolio </button></a>
-    <a href="#containTools" class="tools"><button>Herramientas </button></a>
-    <a href="#infoPersonal" class="contactMe"><button>Contacto </button></a>
+    <a href="#about" class="aboutLink"><button>Acerca de mí</button></a>
+    <a href="#portfolioId" class="portfolio"><button>Portfolio</button></a>
+    <a href="#containTools" class="tools"><button>Herramientas</button></a>
+    <a href="#infoPersonal" class="contactMe"><button>Contacto</button></a>
   </section>
 </template>
 
@@ -65,6 +65,23 @@ button {
 
   button {
     font-size: 16pt;
+  }
+}
+
+@media (max-width: 480px) {
+  .navComp {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .home {
+    font-size: 14pt;
+    margin: 5px 10px;
+  }
+
+  button {
+    font-size: 12pt;
   }
 }
 </style>

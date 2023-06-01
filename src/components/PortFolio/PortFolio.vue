@@ -147,4 +147,34 @@ h4 {
     margin: 0 0.3vw;
   }
 }
+
+@media (max-width: 480px) {
+  .card {
+    width: 90vw;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .title {
+    font-size: 18pt;
+  }
+
+  .subtitle {
+    font-size: 12pt;
+  }
+
+  .link {
+    font-size: 10pt;
+  }
+
+  .about {
+    font-size: 10pt;
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 24pt;
+    padding: 10px;
+  }
+}
 </style>

@@ -73,8 +73,8 @@ export default {
 }
 
 .section {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 100%;
+  max-width: 100%;
   padding: 1rem;
 }
 
@@ -106,23 +106,10 @@ export default {
   color: #333;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateX(-10%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
+@media (min-width: 480px) {
+  .section {
+    flex-basis: 50%;
+    max-width: 50%;
   }
 }
 </style>
