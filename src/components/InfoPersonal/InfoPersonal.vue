@@ -42,7 +42,7 @@
         </li>
         <li>
           <span class="infoLabel">Address:</span>
-          <span class="infoValue">Palo Mayor 1, Málaga, Andaluzia, España</span>
+          <span class="infoValue">Palo Mayor 1, Málaga, Andalucía, España</span>
         </li>
         <li>
           <span class="infoLabel">Instagram:</span>
