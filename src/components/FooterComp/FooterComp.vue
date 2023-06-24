@@ -2,8 +2,8 @@
   <section class="footer">
     <a href="https://github.com/FedeSca001" target="_blank" class="footer-link">Github</a>
     <a href="https://www.linkedin.com/in/federico-scarpecci-developer/" target="_blank" class="footer-link">Linkedin</a>
-    <a href="https://twitter.com/tu_usuario" target="_blank" class="footer-link">Twitter</a>
-    <a href="https://www.instagram.com/tu_usuario" target="_blank" class="footer-link">Instagram</a>
+    <a href="https://twitter.com/FedeScarpecci" target="_blank" class="footer-link">Twitter</a>
+    <a href="https://www.instagram.com/fedesca001/" target="_blank" class="footer-link">Instagram</a>
   </section>
 </template>
 
