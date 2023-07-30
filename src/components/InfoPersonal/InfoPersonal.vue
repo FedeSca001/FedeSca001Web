@@ -4,24 +4,24 @@
       <h1 class="sectionTitle">Personal Information</h1>
       <ul class="infoList">
         <li>
-          <span class="infoLabel">Name:</span>
+          <span class="infoLabel">Nombre:</span>
           <span class="infoValue">Federico Scarpecci</span>
         </li>
         <li>
-          <span class="infoLabel">Age:</span>
-          <span class="infoValue">30</span>
+          <span class="infoLabel">Edad:</span>
+          <span class="infoValue">31</span>
         </li>
         <li>
-          <span class="infoLabel">Nationality:</span>
+          <span class="infoLabel">Nacionalidad:</span>
           <span class="infoValue">Argentinian - Italian</span>
         </li>
         <li>
           <span class="infoLabel">Current Location:</span>
-          <span class="infoValue">Argentinian</span>
+          <span class="infoValue">Spain</span>
         </li>
         <li>
-          <span class="infoLabel">Language:</span>
-          <span class="infoValue">Spanish</span>
+          <span class="infoLabel">Idiomas:</span>
+          <span class="infoValue">Español - Italiano - Ingles</span>
         </li>
         <li>
           <span class="infoLabel">Studies:</span>
@@ -30,18 +30,18 @@
       </ul>
     </div>
     <div class="section">
-      <h1 class="sectionTitle">Contact</h1>
+      <h1 class="sectionTitle">Contacto</h1>
       <ul class="infoList">
         <li>
           <span class="infoLabel">Email:</span>
           <span class="infoValue">familadore@gmail.com</span>
         </li>
         <li>
-          <span class="infoLabel">Phone:</span>
-          <span class="infoValue">+393511911615</span>
+          <span class="infoLabel">Teléfono:</span>
+          <span class="infoValue">+34 674296437</span>
         </li>
         <li>
-          <span class="infoLabel">Address:</span>
+          <span class="infoLabel">Dirección:</span>
           <span class="infoValue">Palo Mayor 1, Málaga, Andalucía, España</span>
         </li>
         <li>
