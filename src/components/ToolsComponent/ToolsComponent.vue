@@ -18,6 +18,18 @@
             <p>JavaScript</p>
           </div>
           <div>
+            <img src="../../assets/images/nodejs.jpg" alt="node js" style="width: 110px;">
+            <p>Node Js</p>
+          </div>
+          <div>
+            <img src="../../assets/images/mongodb.jpg" alt="mongo db" style="width: 110px;">
+            <p>Mongo DB</p>
+          </div>
+          <div>
+            <img src="../../assets/images/php.jpg" alt="php" style="width: 110px;">
+            <p>Mongo DB</p>
+          </div>
+          <div>
             <img src="../../assets/images/jquery.jpg" alt="jquery" style="width: 110px;">
             <p>jQuery</p>
           </div>
