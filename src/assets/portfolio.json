@@ -1,5 +1,13 @@
 [
         {
+                "title": "Juego Del Dado",
+                "subTitle": "Juego interactivo",
+                "img":"dado",
+                "description": "Este proyecto demuestra mi habilidad para crear una experiencia interactiva atractiva y entretenida en la web. Utilizando tecnologías fundamentales como HTML, CSS y JavaScript, he diseñado un juego de dados en línea con una interfaz de usuario llamativa y efectos visuales sorprendentes. El juego permite a los usuarios seleccionar un número, generar un dado y esperar ansiosamente el resultado mientras los dados se animan en la pantalla. Además, he incorporado un contador de intentos que aumenta la emoción y la competencia. Este proyecto demuestra mi capacidad para crear una experiencia de usuario atractiva y funcional, así como mi comprensión de las mejores prácticas de diseño web y mi habilidad para trabajar con tecnologías web esenciales. Estoy emocionado por la oportunidad de aplicar estas habilidades y aprender aún más en un entorno de desarrollo web profesional.",
+                "link": "https://github.com/FedeSca001/Juego-Del-Dado",
+                "deploy": "https://juego-del-dado.netlify.app/"
+        },
+        {
                 "title": "Scraping Bot",
                 "subTitle": "Mi primer API",
                 "img":"scraping-bot-img",
@@ -30,14 +38,6 @@
                 "description": "En éste proyecto lo verdaderamente importante es prestar atención al funcionamiento y la comunicación entre el front y el back. Es mi primer servidor creado y hosteado.",
                 "link": "https://github.com/FedeSca001/parking-MEVN-front",
                 "deploy": "https://parking-sites.netlify.app/"
-        },
-        {
-                "title": "Calculator",
-                "subTitle": "Vuex Practice",
-                "img":"calculator-app",
-                "description": "Éste proyecto fue una práctica de los 'estados' de vuex. Todas los datos se almacenan en las variables globales y son mostrados en todos los componentes.",
-                "link": "https://github.com/FedeSca001/Calculator-Functions",
-                "deploy": "https://function-aplication.netlify.app"
         },
         {
                 "title": "Fantasia Js",
