@@ -5,11 +5,13 @@
     <a href="#portfolioId" class="portfolio"><button>Portfolio</button></a>
     <a href="#containTools" class="tools"><button>Herramientas</button></a>
     <a href="#infoPersonal" class="contactMe"><button>Contacto</button></a>
+    <a href="#formContactame" class="mensaje"><button>Enviar Mensaje</button></a>
   </section>
 </template>
 
 <style scoped>
 .navComp {
+  gap: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +48,9 @@
 
 .contactMe {
   color: rgb(43, 226, 180);
+}
+.mensaje{
+  color: rgb(253, 253, 253);
 }
 
 button {

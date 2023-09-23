@@ -5,6 +5,7 @@
   import ToolsComponent from "./components/ToolsComponent/ToolsComponent.vue";
   import PortFolio from "./components/PortFolio/PortFolio.vue";
   import FooterComp from "./components/FooterComp/FooterComp.vue";
+  import FormContactame from "./components/FormContactame/FormContactame.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@
     <PortFolio />
     <ToolsComponent />
     <InfoPersonal />
+    <FormContactame />
     <FooterComp />
   </div>
 </template>
