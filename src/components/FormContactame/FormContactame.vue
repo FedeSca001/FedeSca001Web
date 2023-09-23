@@ -4,21 +4,21 @@
       <form @submit.prevent="submitForm" class="form">
         <div class="form-group">
           <label for="nombre">Nombre y apellido:</label>
-          <input type="text" id="nombre" v-model="nombre" required class="half-width" :disabled="tecla">
+          <input type="text" id="nombre" v-model="nombre" required class="half-width">
         </div>
   
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" id="email" v-model="email" required class="half-width" :disabled="tecla">
+          <input type="email" id="email" v-model="email" required class="half-width">
         </div>
   
         <div class="form-group">
           <label for="text">Mensaje:</label>
-          <textarea id="text" v-model="text" required readonly class="full-width"></textarea>
+          <textarea id="text" v-model="text" required class="full-width"></textarea>
         </div>
   
         <p v-if="!tecla" class="success-message">No está disponible</p>
-        <button type="submit" class="submit-button" :disabled="tecla">Enviar</button>
+        <button type="submit" class="submit-button">Enviar</button>
       </form>
     </div>
   </template>
@@ -43,22 +43,27 @@
   });
   
   const submitForm = () => {
-    const formData = {
-      nombre: nombre.value,
-      email: email.value,
-      text: text.value,
-      date: new Date()
-    };
+    if (nombre.value.trim() === '' || email.value.trim() === '' || text.value.trim() === '') {
+      console('Por favor, complete todos los campos antes de enviar el mensaje');
+    } else {
+      const formData = {
+        nombre: nombre.value,
+        email: email.value,
+        text: text.value,
+        date: new Date()
+      };
   
-    axios.post('http://localhost:5000/mensaje/enviarMensaje', formData)
-      .then(response => {
-        alert('Mensaje enviado con éxito');
-        console.log(response.data);
-      })
-      .catch(error => {
-        alert('Error al enviar el mensaje');
-        console.error(error);
-      });
+      axios.post('https://parking-back-end.onrender.com/mensaje/enviarMensaje', formData)
+        .then(response => {
+          alert('Mensaje enviado con éxito');
+          console.log(response.data);
+          window.location.reload();
+        })
+        .catch(error => {
+          alert('Error al enviar el mensaje');
+          console.error(error);
+        });
+    }
   }
   </script>
   
@@ -90,15 +95,15 @@
   }
   
   input.half-width, textarea.full-width {
-    width: 100%; /* Ambos campos ocuparán el 100% del ancho */
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   textarea.full-width {
-    resize: none; /* Evita que los usuarios puedan redimensionar el textarea */
-    height: 200px; /* Ajusta la altura del textarea según tus necesidades */
+    resize: none;
+    height: 200px;
   }
   
   .submit-button {
@@ -120,3 +125,4 @@
     font-weight: bold;
   }
   </style>
+  
