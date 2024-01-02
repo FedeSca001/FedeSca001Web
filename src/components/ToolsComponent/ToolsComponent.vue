@@ -19,15 +19,27 @@
           </div>
           <div>
             <img src="../../assets/images/nodejs.jpg" alt="node js" style="width: 110px;">
-            <p>Node Js</p>
+            <p>Node.Js</p>
+          </div>
+          <div>
+            <img src="../../assets/images/php.jpg" alt="php" style="width: 110px;">
+            <p>Php</p>
           </div>
           <div>
             <img src="../../assets/images/mongodb.jpg" alt="mongo db" style="width: 110px;">
             <p>Mongo DB</p>
           </div>
           <div>
-            <img src="../../assets/images/php.jpg" alt="php" style="width: 110px;">
-            <p>Php</p>
+            <img src="../../assets/images/sql.jpeg" alt="mongo db" style="width: 110px;">
+            <p>My Sql</p>
+          </div>
+          <div>
+            <img src="../../assets/images/vue.jpg" alt="vue" style="width: 110px;">
+            <p>Vue.js</p>
+          </div>
+          <div>
+            <img src="../../assets/images/reactjs.png" alt="vue" style="width: 110px;">
+            <p>React.js</p>
           </div>
           <div>
             <img src="../../assets/images/jquery.jpg" alt="jquery" style="width: 110px;">
@@ -44,10 +56,6 @@
           <div>
             <img src="../../assets/images/git.jpg" alt="git" style="width: 110px;">
             <p>Git</p>
-          </div>
-          <div>
-            <img src="../../assets/images/vue.jpg" alt="vue" style="width: 110px;">
-            <p>Vue.js</p>
           </div>
         </div>
       </li>

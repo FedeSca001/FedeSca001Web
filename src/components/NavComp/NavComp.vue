@@ -19,7 +19,7 @@
   top: 0;
   height: 60px;
   width: 100%;
-  background-color: rgba(42, 133, 0, 0.2);
+  background-color: rgba(22, 69, 0, 0.8);
   transition: background-color 0.5s;
 }
 
