@@ -27,7 +27,7 @@
           </div>
           <div>
             <img src="../../assets/images/php.jpg" alt="php" style="width: 110px;">
-            <p>Mongo DB</p>
+            <p>Php</p>
           </div>
           <div>
             <img src="../../assets/images/jquery.jpg" alt="jquery" style="width: 110px;">
