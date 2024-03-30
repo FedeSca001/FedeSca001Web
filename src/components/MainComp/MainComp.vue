@@ -13,7 +13,9 @@
     </article>
     <h4 id="about">Acerca de mí</h4>
     <p class="textPresentacion">
-      Soy un apasionado del desarrollo web con experiencia en tecnologías como HTML, CSS, JavaScript, React.js y Vue.js. A través de mi aprendizaje autodidacta y cursos especializados, he consolidado mis conocimientos y demostrado mi habilidad en la creación de proyectos utilizando frameworks como Vue.js, donde he trabajado con herramientas como Pinia, Vuex, Vue Router y Vuetify. Mi enfoque se centra en entregar soluciones de alta calidad, manteniéndome actualizado/a con las últimas tendencias y tecnologías del sector. Soy una persona autodidacta, comprometida y curiosa, siempre en busca de nuevos desafíos para crecer profesionalmente. Estoy abierto/a a colaborar en proyectos emocionantes y trabajar en equipo para crear experiencias web impactantes.
+      Soy un apasionado del desarrollo web con experiencia sólida en tecnologías de frontend como HTML, CSS, JavaScript, React.js y Vue.js. Mi amor por crear interfaces atractivas y funcionales se refleja en proyectos innovadores que destacan por su calidad visual y experiencia de usuario.
+
+Actualmente, estoy ampliando mis habilidades hacia el desarrollo Fullstack, explorando tecnologías como Node.js, MySQL y Linux. Mi objetivo es combinar mi experiencia en frontend con un dominio completo en el desarrollo backend, creando así soluciones web integrales y de alto rendimiento.
     </p>
   </div>
 </template>

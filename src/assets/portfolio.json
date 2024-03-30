@@ -3,7 +3,7 @@
                 "title": "Juego Del Dado",
                 "subTitle": "Juego interactivo",
                 "img":"dado",
-                "description": "Este proyecto demuestra mi habilidad para crear una experiencia interactiva atractiva y entretenida en la web. Utilizando tecnologías fundamentales como HTML, CSS y JavaScript, he diseñado un juego de dados en línea con una interfaz de usuario llamativa y efectos visuales sorprendentes. El juego permite a los usuarios seleccionar un número, generar un dado y esperar ansiosamente el resultado mientras los dados se animan en la pantalla. Además, he incorporado un contador de intentos que aumenta la emoción y la competencia. Este proyecto demuestra mi capacidad para crear una experiencia de usuario atractiva y funcional, así como mi comprensión de las mejores prácticas de diseño web y mi habilidad para trabajar con tecnologías web esenciales. Estoy emocionado por la oportunidad de aplicar estas habilidades y aprender aún más en un entorno de desarrollo web profesional.",
+                "description": "Al utilizar tecnologías esenciales como HTML, CSS y JavaScript, he diseñado una interfaz sencilla pero efectiva que permite a los usuarios seleccionar un número, generar un dado y esperar ansiosamente el resultado mientras los dados se animan en la pantalla. Además, he integrado un contador de intentos que añade emoción y desafío al juego. Este proyecto no solo demuestra mi capacidad para crear experiencias de usuario funcionales y atractivas, sino también mi habilidad para trabajar con lógica de programación de azar y gestionar eficazmente los eventos en una aplicación web. Estoy entusiasmado por la oportunidad de aplicar estas habilidades y seguir aprendiendo en un entorno profesional de desarrollo web.",
                 "link": "https://github.com/FedeSca001/Juego-Del-Dado",
                 "deploy": "https://juego-del-dado.netlify.app/"
         },
@@ -11,15 +11,15 @@
                 "title": "Scraping Bot",
                 "subTitle": "Mi primer API",
                 "img":"scraping-bot-img",
-                "description": "Este bot es un servidor web creado con Express y Node.js que utiliza la biblioteca Cheerio para realizar scraping en varias páginas web y extraer datos específicos. El bot obtiene cotizaciones del dólar en Argentina, el tipo de cambio euro-dólar y los precios del oro en quilates de 24 y 18. Luego, devuelve los datos recopilados en formato JSON como respuesta a las solicitudes realizadas a través de la ruta principal del servidor.",
-                "link": "https://github.com/FedeSca001/Scraping-dolar",
-                "deploy": "https://api-precio-dolar.onrender.com"
+                "description": "Este servidor web desarrollado con Express y Node.js utiliza Cheerio para extraer cotizaciones del dólar en Argentina, el euro-dólar y los precios del oro desde múltiples sitios web. La función updateData actualiza estos datos automáticamente al iniciar el servidor y en cada solicitud a la ruta principal, devolviendo la información en formato JSON. Esta herramienta proporciona una forma eficiente de obtener información financiera actualizada en tiempo real, con una estructura modular y capacidad para manejar múltiples solicitudes simultáneamente, asegurando precisión y relevancia en los datos ofrecidos.",
+                "link": "https://github.com/FedeSca001/bot-scraping",
+                "deploy": "https://bot-scraping.onrender.com"
         },
         {
                 "title": "Food-App",
                 "subTitle": "E-commerce Vue 3",
                 "img":"food-app-img",
-                "description": "El proyecto en la página web https://foods-app-vue3.web.app/ utiliza Vue 3 con Vite como herramienta de construcción, Pinia como estado de gestión, Vuetify como biblioteca de componentes de interfaz de usuario y Axios para realizar llamadas a una API. La aplicación está diseñada para mostrar información relacionada con alimentos y permite interactuar con la API para obtener y mostrar datos actualizados..",
+                "description": "El proyecto utiliza Vue 3 con Vite como herramienta de construcción, Pinia como estado de gestión, Vuetify como biblioteca de componentes de interfaz de usuario y Axios para realizar llamadas a una API. La aplicación está diseñada para mostrar información relacionada con alimentos y permite interactuar con la API para obtener y mostrar datos actualizados..",
                 "link": "https://github.com/FedeSca001/foods-app",
                 "deploy": "https://foods-app-vue3.web.app/"
         },
@@ -27,7 +27,7 @@
                 "title": "ToDo App",
                 "subTitle": "Mi primer servidor",
                 "img":"to-do-app",
-                "description": "El proyecto en la página web https://to-do-list-full-stack.netlify.app/ se centra en el funcionamiento y la comunicación entre el frontend y el backend. Es un servidor creado y alojado por el usuario, y utiliza Node.js con Express y Nodemon en el backend para manejar las solicitudes y respuestas. En el frontend, se utiliza Vue.js junto con Pinia y Axios para crear una lista de tareas. La aplicación permite al usuario agregar y eliminar tareas, y la comunicación entre el frontend y el backend se realiza mediante solicitudes HTTP.",
+                "description": "El proyecto se centra en el funcionamiento y la comunicación entre el frontend y el backend. Es un servidor creado y alojado por el usuario, y utiliza Node.js con Express y Nodemon en el backend para manejar las solicitudes y respuestas. En el frontend, se utiliza Vue.js junto con Pinia y Axios para crear una lista de tareas. La aplicación permite al usuario agregar y eliminar tareas, y la comunicación entre el frontend y el backend se realiza mediante solicitudes HTTP.",
                 "link": "https://github.com/FedeSca001/ToDo-list-Mevn-stack",
                 "deploy": "https://to-do-list-full-stack.netlify.app"
         },

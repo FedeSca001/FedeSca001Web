@@ -13,19 +13,19 @@
         </li>
         <li>
           <span class="infoLabel">Nacionalidad: </span>
-          <span class="infoValue">Argentinian - Italian</span>
+          <span class="infoValue">Italiano - Argentino</span>
         </li>
         <li>
-          <span class="infoLabel">Current Location: </span>
-          <span class="infoValue">Spain</span>
+          <span class="infoLabel">Ubicación actual: </span>
+          <span class="infoValue">Málaga - España</span>
         </li>
         <li>
           <span class="infoLabel">Idiomas: </span>
           <span class="infoValue">Español - Italiano - Ingles</span>
         </li>
         <li>
-          <span class="infoLabel">Studies: </span>
-          <span class="infoValue">HTML, CSS, JavaScript, Vue.js, Vuex</span>
+          <span class="infoLabel">Estudios: </span>
+          <span class="infoValue">HTML, CSS, JavaScript, Vue.js, Vuex, React.js</span>
         </li>
       </ul>
     </div>
@@ -41,8 +41,8 @@
           <span class="infoValue">+34 674296437</span>
         </li>
         <li>
-          <span class="infoLabel">Dirección: </span>
-          <span class="infoValue">Palo Mayor 1, Málaga, Andalucía, España</span>
+          <span class="infoLabel">Github: </span>
+          <span class="infoValue">https://github.com/FedeSca001</span>
         </li>
         <li>
           <span class="infoLabel">Instagram: </span>
