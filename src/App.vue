@@ -6,6 +6,7 @@
   import PortFolio from "./components/PortFolio/PortFolio.vue";
   import FooterComp from "./components/FooterComp/FooterComp.vue";
   import FormContactame from "./components/FormContactame/FormContactame.vue";
+  import CV from "./components/CV/CV.vue"
 </script>
 
 <template>
@@ -14,6 +15,7 @@
     <MainComp />
     <PortFolio />
     <ToolsComponent />
+    <CV />
     <InfoPersonal />
     <FormContactame />
     <FooterComp />

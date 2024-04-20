@@ -4,6 +4,7 @@
     <a href="#about" class="aboutLink"><button>Acerca de mí</button></a>
     <a href="#portfolioId" class="portfolio"><button>Portfolio</button></a>
     <a href="#containTools" class="tools"><button>Herramientas</button></a>
+    <a href="#DescargaCV"><button class="CV">Descarga CV</button></a>
     <a href="#infoPersonal" class="contactMe"><button>Contacto</button></a>
     <a href="#formContactame" class="mensaje"><button>Enviar Mensaje</button></a>
   </section>
@@ -52,7 +53,9 @@
 .mensaje{
   color: rgb(253, 253, 253);
 }
-
+.CV{
+  color: aquamarine;
+}
 button {
   background: none;
   border: none;
