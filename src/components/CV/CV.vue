@@ -1,7 +1,7 @@
 <script setup>
 const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = 'https://fedesca001-front-end.netlify.app/assets/Federico-Scarpecci-CV.pdf'; // Reemplaza 'tu-dominio' con tu dominio de Netlify
+    link.href = 'https://fedesca001-front-end.netlify.app/dist/assets/CV-Federico-Scarpecci.jpg';
     link.download = 'Federico-Scarpecci-CV.pdf';
     link.click();
 }
