@@ -52,7 +52,9 @@
 .mensaje{
   color: rgb(253, 253, 253);
 }
-
+.CV{
+  color: aquamarine;
+}
 button {
   background: none;
   border: none;
