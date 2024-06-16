@@ -44,7 +44,7 @@ export default {
 }
 
 .imgProfile {
-  border-radius: 4vw;
+  border-radius: 50%;
   height: 23vw;
 }
 

@@ -33,7 +33,7 @@
         },
         {
                 "title": "Parking Sites",
-                "subTitle": "Conecto el back-end con el front-end.",
+                "subTitle": "Back-end y Front-end.",
                 "img":"parking-app-img",
                 "description": "En éste proyecto lo verdaderamente importante es prestar atención al funcionamiento y la comunicación entre el front y el back. Es mi primer servidor creado y hosteado.",
                 "link": "https://github.com/FedeSca001/parking-MEVN-front",
@@ -41,7 +41,7 @@
         },
         {
                 "title": "Fantasia Js",
-                "subTitle": "E-commerce vanilla Js",
+                "subTitle": "E-commerce Javascript",
                 "img":"fantasi-kiosco",
                 "description": "Es un proyecto de un kiosco ficticio donde un cliente ingresa sus datos y encarga mercadería del kiosco. Utiliza jquery y ajax.",
                 "link": "https://github.com/FedeSca001/Proyecto-final-Coder",

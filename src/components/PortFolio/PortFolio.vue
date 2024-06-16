@@ -3,9 +3,14 @@
     <h4>Portfolio</h4>
     <div class="containCard">
       <div v-for="item in items" :key="item.id" class="card">
-        <div class="titleCard">
-          <h5 class="title">{{ item.title }}</h5>
-          <h6 class="subtitle">{{ item.subTitle }}</h6>
+        <div class="card-header">
+          <div class="img-card">
+            <img class="img-style" :src="`../src/assets/images/${item.img}.png`" :alt="item.img">
+          </div>
+          <div class="titleCard">
+            <h5 class="title">{{ item.title }}</h5>
+            <h6 class="subtitle">{{ item.subTitle }}</h6>
+          </div>
         </div>
         <div class="links">
           <a :href="item.link" target="_blank" class="link">Github</a>
@@ -26,11 +31,29 @@ export default {
     return {
       items: list,
     };
-  },
+  }
 };
 </script>
 
 <style scoped>
+.img-style {
+  width: 180px;
+  margin: auto;
+}
+
+.img-card {
+  background: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 190px;
+  margin: 15px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
 .articlePortFolioComp {
   align-items: center;
   padding: 2vw 0vw;
@@ -58,23 +81,23 @@ export default {
 }
 
 .title {
-  font-size: 25pt;
+  font-size: 20pt;
   color: white;
 }
 
 .subtitle {
-  font-size: 15pt;
+  font-size: 14pt;
   color: white;
 }
 
 .link {
-  font-size: 12pt;
+  font-size: 10pt;
   margin: 0 5px;
 }
 
 .about {
   color: white;
-  font-size: 12pt;
+  font-size: 10pt;
   padding: 1.5vw;
 }
 
@@ -100,7 +123,6 @@ h4 {
   color: white;
   padding: 1.5vw;
   font-size: 30pt;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -120,18 +142,18 @@ h4 {
   }
 
   .about {
-    font-size: 1.3vw;
+    font-size: 12pt;
     padding: 1.5vw;
     height: 100%;
     overflow: auto;
   }
 
   .title {
-    font-size: 2.5vw;
+    font-size: 18pt;
   }
 
   .subtitle {
-    font-size: 1.5vw;
+    font-size: 15pt;
   }
 
   .links {
@@ -140,7 +162,7 @@ h4 {
   }
 
   .link {
-    font-size: 1.2vw;
+    font-size: 12pt;
   }
 
   a {
@@ -164,7 +186,7 @@ h4 {
   }
 
   .link {
-    font-size: 10pt;
+    font-size: 12pt;
   }
 
   .about {
@@ -173,7 +195,7 @@ h4 {
   }
 
   h4 {
-    font-size: 24pt;
+    font-size: 20pt;
     padding: 10px;
   }
 }
