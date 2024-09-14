@@ -13,7 +13,7 @@
                 "img":"scraping-bot-img",
                 "description": "Este servidor web desarrollado con Express y Node.js utiliza Cheerio para extraer cotizaciones del dólar en Argentina, el euro-dólar y los precios del oro desde múltiples sitios web. La función updateData actualiza estos datos automáticamente al iniciar el servidor y en cada solicitud a la ruta principal, devolviendo la información en formato JSON. Esta herramienta proporciona una forma eficiente de obtener información financiera actualizada en tiempo real, con una estructura modular y capacidad para manejar múltiples solicitudes simultáneamente, asegurando precisión y relevancia en los datos ofrecidos.",
                 "link": "https://github.com/FedeSca001/bot-scraping",
-                "deploy": "https://bot-scraping.onrender.com"
+                "deploy": "https://show-me-the-data.netlify.app/"
         },
         {
                 "title": "Food-App",
