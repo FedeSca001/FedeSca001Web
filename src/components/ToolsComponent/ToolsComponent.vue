@@ -86,8 +86,9 @@
 
 <style scoped>
 .containTools {
-  padding: 3vw 0;
+  padding: 4vw 0;
   text-align: center;
+  background-color: var(--color-background-soft);
 }
 
 .list {
@@ -95,26 +96,29 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-top: 2vw;
+  margin-top: 3vw;
+  list-style: none;
 }
 
 .listTools {
   padding: 2vw;
   margin: 2vw;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+  background-color: var(--color-background); /* Color de fondo armonizado */
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 h4 {
-  color: white;
-  font-size: 30px;
+  color: var(--color-heading);
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 2vw;
+  transition: color 0.3s;
 }
 
 h5 {
-  font-size: 20px;
-  color: white;
+  font-size: 22px;
+  color: var(--color-text);
   margin-bottom: 1.5vw;
 }
 
@@ -126,33 +130,34 @@ h5 {
 }
 
 .contTools div {
-  width: 120px;
+  width: 130px;
   margin: 1.5vw;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contTools div:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Efecto al hacer hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra al hacer hover */
 }
 
 img {
   width: 100%;
   height: auto;
-  background-color: white;
   border-radius: 10px;
-  padding: 5px;
+  border: solid 1.5px var(--color-border); /* Borde refinado */
+  padding: 8px;
 }
 
 p {
-  margin-top: 0.5vw;
-  font-size: 14px;
-  color: white;
+  margin-top: 0.8vw;
+  font-size: 15px;
+  color: var(--color-text);
   text-align: center;
 }
 
 @media (min-width: 1000px) {
   .containTools {
-    padding: 4vw 0;
+    padding: 5vw 0;
   }
 
   .listTools {
@@ -174,13 +179,21 @@ p {
     margin: 1vw;
   }
 
-  img {
-    padding: 7px;
-  }
-
   p {
-    margin-top: 0.8vw;
+    margin-top: 0.5vw;
     font-size: 16px;
   }
 }
+
+@media (max-width: 768px) {
+  .contTools div {
+    width: 100px;
+    margin: 1vw;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
 </style>

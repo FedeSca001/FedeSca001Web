@@ -9,7 +9,7 @@
         </li>
         <li>
           <span class="infoLabel">Edad: </span>
-          <span class="infoValue">31</span>
+          <span class="infoValue">32</span>
         </li>
         <li>
           <span class="infoLabel">Nacionalidad: </span>
@@ -69,7 +69,6 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.8);
 }
 
 .section {
@@ -83,7 +82,6 @@ export default {
   font-weight: bold;
   margin-bottom: 1rem;
   animation: fadeIn 1s ease-in-out;
-  color: #ff3860;
 }
 
 .infoList {
@@ -98,12 +96,12 @@ export default {
 
 .infoLabel {
   font-weight: bold;
-  color: #ff3860;
+  color: rgb(98, 95, 194);
 }
 
 .infoValue {
   font-weight: normal;
-  color: #333;
+  color: #000000;
 }
 
 @media (min-width: 480px) {

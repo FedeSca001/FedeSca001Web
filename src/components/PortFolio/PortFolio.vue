@@ -13,14 +13,15 @@
           </div>
         </div>
         <div class="links">
-          <a :href="item.link" target="_blank" class="link">Github</a>
-          <a :href="item.deploy" target="_blank" class="link">Link to app</a>
+          <a :href="item.link" target="_blank" class="link">View Code</a>
+          <a :href="item.deploy" target="_blank" class="link">Live Demo</a>
         </div>
         <p class="about">{{ item.description }}</p>
       </div>
     </div>
   </article>
 </template>
+
 
 <script>
 import list from "../../assets/portfolio.json";
@@ -36,167 +37,118 @@ export default {
 </script>
 
 <style scoped>
-.img-style {
-  width: 180px;
-  margin: auto;
-}
-
-.img-card {
-  background: white;
-  border-radius: 5px;
-  padding: 5px;
-  width: 190px;
-  margin: 15px;
-}
-
-.card-header {
-  display: flex;
-  align-items: center;
-}
-
 .articlePortFolioComp {
-  align-items: center;
-  padding: 2vw 0vw;
-  transition: 1.2s;
-  background-image: linear-gradient(
-    135deg,
-    rgba(253, 95, 3, 0.2),
-    rgba(255, 94, 0, 0.2),
-    rgba(255, 94, 0, 0.2),
-    rgba(255, 94, 0, 0.2),
-    rgba(255, 187, 0, 0.2)
-  );
-  background-size: 100%;
-}
-
-.articlePortFolioComp:hover {
-  background-color: rgba(255, 94, 0, 0.39);
-}
-
-.links {
-  background-color: white;
-  text-align: center;
-  margin-top: 0.2vw;
-  padding: 4pt;
-}
-
-.title {
-  font-size: 20pt;
-  color: white;
-}
-
-.subtitle {
-  font-size: 14pt;
-  color: white;
-}
-
-.link {
-  font-size: 10pt;
-  margin: 0 5px;
-}
-
-.about {
-  color: white;
-  font-size: 10pt;
-  padding: 1.5vw;
-}
-
-.card {
-  margin: 20px auto;
-  width: 80vw;
-  box-shadow: 0px 12px 52px rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  background-color: rgba(81, 26, 153, 0.164);
-  border-radius: 10px;
-  transition: box-shadow 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0px 6px 50px 5px #edff4d63 inset, 2px 6px 25px #edff4d, 0px 12px 52px rgba(187, 245, 194, 0.322);
-}
-
-a {
-  text-decoration: none;
+  width: 100%;
+  padding: 4vw 2vw;
+  background-color: #fefefe;
 }
 
 h4 {
-  color: white;
-  padding: 1.5vw;
-  font-size: 30pt;
+  font-size: 32px;
+  font-weight: 300;
   text-align: center;
+  margin-bottom: 40px;
+  color: #333;
 }
 
+/* Estilos de las tarjetas */
 .containCard {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-@media (min-width: 1000px) {
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Encabezado de la tarjeta */
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-card {
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.img-style {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titleCard {
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777;
+  margin: 5px 0 0;
+}
+
+/* Links */
+.links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.link {
+  color: #007BFF;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+/* Descripción */
+.about {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
   .card {
-    height: auto;
-    width: 40vw;
-    padding: 30px;
-    border-radius: 20px;
-    margin: 25px;
-  }
-
-  .about {
-    font-size: 12pt;
-    padding: 1.5vw;
-    height: 100%;
-    overflow: auto;
-  }
-
-  .title {
-    font-size: 18pt;
-  }
-
-  .subtitle {
-    font-size: 15pt;
-  }
-
-  .links {
-    margin-top: 0.6vw;
-    padding: 8pt;
-  }
-
-  .link {
-    font-size: 12pt;
-  }
-
-  a {
-    margin: 0 0.3vw;
+    width: 45%;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .card {
-    width: 90vw;
-    padding: 20px;
-    margin: 10px;
-  }
-
-  .title {
-    font-size: 18pt;
-  }
-
-  .subtitle {
-    font-size: 12pt;
-  }
-
-  .link {
-    font-size: 12pt;
-  }
-
-  .about {
-    font-size: 10pt;
-    padding: 10px;
-  }
-
-  h4 {
-    font-size: 20pt;
-    padding: 10px;
+    width: 30%;
   }
 }
 </style>

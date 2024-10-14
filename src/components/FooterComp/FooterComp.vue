@@ -1,7 +1,7 @@
 <template>
   <section class="footer">
     <a href="https://github.com/FedeSca001" target="_blank" class="footer-link">Github</a>
-    <a href="https://www.linkedin.com/in/federico-scarpecci-developer/" target="_blank" class="footer-link">Linkedin</a>
+    <a href="https://www.linkedin.com/in/federico-scarpecci-developer/" target="_blank" class="footer-link">LinkedIn</a>
     <a href="https://twitter.com/FedeScarpecci" target="_blank" class="footer-link">Twitter</a>
     <a href="https://www.instagram.com/fedesca001/" target="_blank" class="footer-link">Instagram</a>
   </section>
@@ -18,35 +18,33 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 0.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-link {
   text-decoration: none;
-  color: white;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0.25rem;
+  color: black;
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .footer-link:hover {
-  transform: scale(1.1);
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #6c61d4;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-link:active {
+  transform: scale(0.95);
 }
 
 @media (min-width: 768px) {
-  .footer {
-    padding: 0.75rem;
-  }
-
   .footer-link {
-    font-size: 14px;
-    padding: 0.5rem 1rem;
-    margin: 0.5rem;
+    font-size: 16px;
+    margin: 0 1rem;
   }
 }
 </style>

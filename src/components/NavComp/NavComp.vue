@@ -11,84 +11,61 @@
 
 <style scoped>
 .navComp {
-  gap: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 0;
-  height: 60px;
-  width: 100%;
-  background-color: rgba(22, 69, 0, 0.8);
-  transition: background-color 0.5s;
 }
 
-.navComp:hover {
-  background-color: rgba(19, 58, 0, 0.8);
+
+.navComp a {
+  text-decoration: none; /* Remueve el subrayado */
 }
 
-.home {
-  font-size: 16pt;
-  font-weight: 600;
-  color: red;
-  margin: 0 10px;
-}
-
-.aboutLink {
-  color: white;
-}
-
-.portfolio {
-  color: rgb(0, 255, 0);
-}
-
-.tools {
-  color: rgb(218, 209, 78);
-}
-
-.contactMe {
-  color: rgb(43, 226, 180);
-}
-.mensaje{
-  color: rgb(253, 253, 253);
-}
-.CV{
-  color: aquamarine;
-}
 button {
   background: none;
   border: none;
-  margin: 1px 4px;
-  font-weight: 300;
-  font-size: 10pt;
-  transition: color 0.3s;
+  margin: 0 15px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14pt;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  color: var(--vt-c-indigo); /* Color resaltado en hover */
+  transform: translateY(-2px); /* Efecto sutil al pasar el cursor */
+}
+
+button:focus {
+  outline: none;
+  border-bottom: 2px solid var(--vt-c-indigo); /* Añade un borde en la parte inferior al seleccionar */
 }
 
 @media (min-width: 1000px) {
   .home {
-    font-size: 24pt;
-    margin: 0 20px;
+    font-size: 18pt;
   }
 
   button {
-    font-size: 16pt;
+    font-size: 14pt;
+    margin: 0 20px;
   }
 }
 
 @media (max-width: 480px) {
   .navComp {
+    flex-wrap: wrap; /* Flexibilidad en dispositivos móviles */
+    justify-content: space-around;
     height: auto;
-    flex-wrap: wrap;
     padding: 10px;
-  }
-
-  .home {
-    font-size: 14pt;
-    margin: 5px 10px;
   }
 
   button {
     font-size: 12pt;
+    margin: 10px 5px;
   }
 }
+
 </style>
