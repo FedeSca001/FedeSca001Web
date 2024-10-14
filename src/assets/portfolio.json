@@ -1,11 +1,11 @@
 [
         {
-                "title": "Juego Del Dado",
-                "subTitle": "Juego interactivo",
-                "img":"dado",
-                "description": "Al utilizar tecnologías esenciales como HTML, CSS y JavaScript, he diseñado una interfaz sencilla pero efectiva que permite a los usuarios seleccionar un número, generar un dado y esperar ansiosamente el resultado mientras los dados se animan en la pantalla. Además, he integrado un contador de intentos que añade emoción y desafío al juego. Este proyecto no solo demuestra mi capacidad para crear experiencias de usuario funcionales y atractivas, sino también mi habilidad para trabajar con lógica de programación de azar y gestionar eficazmente los eventos en una aplicación web. Estoy entusiasmado por la oportunidad de aplicar estas habilidades y seguir aprendiendo en un entorno profesional de desarrollo web.",
-                "link": "https://github.com/FedeSca001/Juego-Del-Dado",
-                "deploy": "https://juego-del-dado.netlify.app/"
+                "title": "Chat-App",
+                "subTitle": "Proyecto fullstack (base de datos, server y front)",
+                "img":"chat-app",
+                "description": "Este proyecto es un servidor web construido con Express.js y Socket.IO, que facilita la comunicación en tiempo real. Utiliza Node.js para gestionar conexiones y permitir el envío y recepción instantánea de mensajes. El servidor emplea middleware como morgan para el registro de solicitudes y cors para habilitar el acceso desde diferentes orígenes. También incluye un manejo de errores global y rutas específicas para gestionar usuarios, mensajes y salas, lo que garantiza una estructura modular y escalable. El frontend está desarrollado en React, mientras que la base de datos se gestiona con SQL, lo que permite una integración eficiente y flexible en el entorno de desarrollo configurado mediante dotenv.",
+                "link": "https://github.com/FedeSca001/Chat-App-Back",
+                "deploy": "https://chat-app-back-odei.onrender.com/"
         },
         {
                 "title": "Scraping Bot",
@@ -14,6 +14,14 @@
                 "description": "Este servidor web desarrollado con Express y Node.js utiliza Cheerio para extraer cotizaciones del dólar en Argentina, el euro-dólar y los precios del oro desde múltiples sitios web. La función updateData actualiza estos datos automáticamente al iniciar el servidor y en cada solicitud a la ruta principal, devolviendo la información en formato JSON. Esta herramienta proporciona una forma eficiente de obtener información financiera actualizada en tiempo real, con una estructura modular y capacidad para manejar múltiples solicitudes simultáneamente, asegurando precisión y relevancia en los datos ofrecidos.",
                 "link": "https://github.com/FedeSca001/bot-scraping",
                 "deploy": "https://show-me-the-data.netlify.app/"
+        },
+        {
+                "title": "Juego Del Dado",
+                "subTitle": "Juego interactivo",
+                "img":"dado",
+                "description": "Al utilizar tecnologías esenciales como HTML, CSS y JavaScript, he diseñado una interfaz sencilla pero efectiva que permite a los usuarios seleccionar un número, generar un dado y esperar ansiosamente el resultado mientras los dados se animan en la pantalla. Además, he integrado un contador de intentos que añade emoción y desafío al juego. Este proyecto no solo demuestra mi capacidad para crear experiencias de usuario funcionales y atractivas, sino también mi habilidad para trabajar con lógica de programación de azar y gestionar eficazmente los eventos en una aplicación web. Estoy entusiasmado por la oportunidad de aplicar estas habilidades y seguir aprendiendo en un entorno profesional de desarrollo web.",
+                "link": "https://github.com/FedeSca001/Juego-Del-Dado",
+                "deploy": "https://juego-del-dado.netlify.app/"
         },
         {
                 "title": "Food-App",
